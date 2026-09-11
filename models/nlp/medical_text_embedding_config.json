@@ -1,0 +1,9 @@
+{
+  "model_name": "pritamdeka/S-PubMedBert-MS-MARCO",
+  "embedding_dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "source_text_column": "normalized_transcription",
+  "number_of_records": 4966,
+  "dataset": "MTSamples Medical Transcriptions"
+}

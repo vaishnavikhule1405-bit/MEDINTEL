@@ -1,0 +1,32 @@
+{
+  "numeric_features": [
+    "entity_count",
+    "problem_count",
+    "symptom_count",
+    "medication_count",
+    "test_count",
+    "procedure_count",
+    "anatomy_count",
+    "measurement_count",
+    "clinical_attribute_count",
+    "clinical_event_count",
+    "clinical_history_count",
+    "treatment_count",
+    "unique_entity_count",
+    "negated_entity_count",
+    "uncertain_entity_count",
+    "historical_entity_count",
+    "family_history_entity_count",
+    "record_index",
+    "word_count",
+    "character_count",
+    "entity_density",
+    "unique_entity_density",
+    "avg_ner_confidence",
+    "min_ner_confidence",
+    "max_ner_confidence"
+  ],
+  "number_of_features": 25,
+  "scaler": "StandardScaler",
+  "note": "For final supervised fusion training, the scaler must be refitted using only the fusion training split."
+}

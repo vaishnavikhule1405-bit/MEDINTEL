@@ -1,0 +1,11 @@
+Metric,DenseNet121
+Accuracy,0.8253
+Macro Precision,0.8424
+Macro Recall,0.7842
+Macro F1,0.7992
+Weighted F1,0.8173
+Pneumonia Precision,0.8061
+Pneumonia Sensitivity/Recall,0.9487
+Pneumonia F1,0.8716
+Specificity,0.6197
+ROC-AUC,0.9265

@@ -1,0 +1,30 @@
+{
+  "dataset_type": "SYNTHETIC_DEMONSTRATION",
+  "number_of_cases": 500,
+  "modalities": [
+    "clinical",
+    "imaging",
+    "medical_text"
+  ],
+  "clinical_model": "XGBoost",
+  "imaging_model": "Custom CNN",
+  "nlp_pipeline": [
+    "Biomedical NER",
+    "Context Detection",
+    "Biomedical Embeddings"
+  ],
+  "same_patient_records": false,
+  "fusion_strategy": "Late Evidence Fusion",
+  "evidence_features": [
+    "clinical_confidence",
+    "pneumonia_probability",
+    "textual_evidence",
+    "nlp_entity_count",
+    "negated_entity_count",
+    "uncertain_entity_count",
+    "historical_entity_count",
+    "family_history_entity_count"
+  ],
+  "overall_index": "Equal-weight prototype evidence index",
+  "important_note": "Synthetic cases combine independently sourced records from different datasets. They do not represent real multimodal patient records. The overall evidence index is a prototype aggregation measure and is not a clinically validated risk probability."
+}

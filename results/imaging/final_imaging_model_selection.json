@@ -1,0 +1,27 @@
+{
+    "primary_imaging_model": "Custom CNN",
+    "benchmark_model": "DenseNet121",
+    "reason": "Custom CNN achieved stronger overall performance on the held-out test set, including accuracy, macro F1, Pneumonia F1, Pneumonia sensitivity, and ROC-AUC. DenseNet121 achieved slightly higher specificity.",
+    "custom_cnn": {
+        "accuracy": 0.8446,
+        "macro_precision": 0.8891,
+        "macro_recall": 0.7962,
+        "macro_f1": 0.8162,
+        "pneumonia_precision": 0.8058,
+        "pneumonia_f1": 0.8884,
+        "pneumonia_sensitivity": 0.9897,
+        "specificity": 0.6026,
+        "roc_auc": 0.9325
+    },
+    "densenet121": {
+        "accuracy": 0.8253,
+        "macro_precision": 0.8424,
+        "macro_recall": 0.7842,
+        "macro_f1": 0.7992,
+        "pneumonia_precision": 0.8061,
+        "pneumonia_f1": 0.8716,
+        "pneumonia_sensitivity": 0.9487,
+        "specificity": 0.6197,
+        "roc_auc": 0.9265
+    }
+}

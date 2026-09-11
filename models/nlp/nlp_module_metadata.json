@@ -1,0 +1,66 @@
+{
+  "module": "MedIntel AI Medical Text Intelligence",
+  "dataset": "MTSamples Medical Transcriptions",
+  "records": 4966,
+  "entity_categories": [
+    "PROBLEM",
+    "SYMPTOM",
+    "MEDICATION",
+    "TEST",
+    "PROCEDURE",
+    "ANATOMY",
+    "MEASUREMENT",
+    "CLINICAL_ATTRIBUTE",
+    "CLINICAL_EVENT",
+    "CLINICAL_HISTORY",
+    "TREATMENT"
+  ],
+  "embedding_dimension": 768,
+  "structured_evidence_features": [
+    "entity_count",
+    "problem_count",
+    "symptom_count",
+    "medication_count",
+    "test_count",
+    "procedure_count",
+    "anatomy_count",
+    "measurement_count",
+    "clinical_attribute_count",
+    "clinical_event_count",
+    "clinical_history_count",
+    "treatment_count",
+    "unique_entity_count",
+    "negated_entity_count",
+    "uncertain_entity_count",
+    "historical_entity_count",
+    "family_history_entity_count",
+    "record_index",
+    "word_count",
+    "character_count",
+    "entity_density",
+    "unique_entity_density",
+    "avg_ner_confidence",
+    "min_ner_confidence",
+    "max_ner_confidence"
+  ],
+  "outputs": {
+    "full_standardized_output": "standardized_nlp_output.jsonl",
+    "backend_output": "nlp_backend_output.jsonl",
+    "embeddings": "medical_text_embeddings.npy",
+    "evidence_features": "nlp_evidence_features.csv",
+    "explainability": "nlp_explainability_examples.json"
+  },
+  "context_features": [
+    "negation",
+    "uncertainty",
+    "temporality",
+    "family_history"
+  ],
+  "explainability_methods": [
+    "entity evidence",
+    "entity confidence",
+    "context status",
+    "semantic similarity"
+  ],
+  "safety_note": "NLP outputs represent model-derived textual evidence and are not clinically validated diagnoses or causal medical conclusions."
+}

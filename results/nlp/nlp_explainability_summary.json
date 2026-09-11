@@ -1,0 +1,16 @@
+{
+  "module": "MedIntel AI NLP Explainability",
+  "purpose": "Provide interpretable textual evidence from medical transcription processing.",
+  "explanation_methods": [
+    "Medical entity extraction",
+    "Entity confidence",
+    "Entity category",
+    "Negation status",
+    "Uncertainty status",
+    "Temporality",
+    "Family-history context",
+    "Semantic similarity to other reports"
+  ],
+  "number_of_example_reports": 20,
+  "note": "These explanations represent model-derived textual evidence and contextual information. They are not clinical reasoning, causal explanations, or validated medical conclusions."
+}

@@ -1,0 +1,50 @@
+{
+    "project": "MedIntel AI",
+    "module": "Computer Vision / Chest X-Ray",
+    "primary_model": {
+        "name": "Custom CNN",
+        "checkpoint": "custom_cnn_best.pth",
+        "task": "Binary classification"
+    },
+    "benchmark_model": {
+        "name": "DenseNet121",
+        "checkpoint": "densenet121_best.pth",
+        "task": "Transfer learning benchmark"
+    },
+    "classes": [
+        "NORMAL",
+        "PNEUMONIA"
+    ],
+    "preprocessing": {
+        "image_size": [
+            224,
+            224
+        ],
+        "channels": 3,
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "explainability": {
+        "method": "Grad-CAM",
+        "target_layer": "block4.0"
+    },
+    "performance": {
+        "accuracy": 0.8446,
+        "macro_precision": 0.8891,
+        "macro_recall": 0.7962,
+        "macro_f1": 0.8162,
+        "pneumonia_precision": 0.8058,
+        "pneumonia_f1": 0.8884,
+        "pneumonia_sensitivity": 0.9897,
+        "specificity": 0.6026,
+        "roc_auc": 0.9325
+    }
+}

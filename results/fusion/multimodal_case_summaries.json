@@ -1,0 +1,2002 @@
+[
+  {
+    "case_id": "SYNTH-0001",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (47.8% confidence). The chest X-ray model predicts 0, with 49.0% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 57.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0002",
+    "summary": "Clinical model evidence favors Asthma (49.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 54.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0003",
+    "summary": "Clinical model evidence favors Asthma (82.1% confidence). The chest X-ray model predicts 0, with 26.1% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 45.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0004",
+    "summary": "Clinical model evidence favors Hyperthyroidism (66.9% confidence). The chest X-ray model predicts 0, with 27.3% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 52.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0005",
+    "summary": "Clinical model evidence favors Type2_Diabetes (81.2% confidence). The chest X-ray model predicts 1, with 98.6% pneumonia probability. The medical-text module extracted 5 clinical entities. The resulting prototype multimodal evidence index is 60.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0006",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (30.8% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 66.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0007",
+    "summary": "Clinical model evidence favors Gastritis (75.9% confidence). The chest X-ray model predicts 0, with 0.9% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 50.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0008",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (64.9% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 77.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0009",
+    "summary": "Clinical model evidence favors Asthma (68.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 80.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0010",
+    "summary": "Clinical model evidence favors Type2_Diabetes (85.7% confidence). The chest X-ray model predicts 0, with 45.0% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 46.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0011",
+    "summary": "Clinical model evidence favors Asthma (76.2% confidence). The chest X-ray model predicts 1, with 96.9% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 59.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0012",
+    "summary": "Clinical model evidence favors Asthma (56.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 71.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0013",
+    "summary": "Clinical model evidence favors Pneumonia (40.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 61 clinical entities. The resulting prototype multimodal evidence index is 77.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0014",
+    "summary": "Clinical model evidence favors Asthma (88.8% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 107 clinical entities. The resulting prototype multimodal evidence index is 95.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0015",
+    "summary": "Clinical model evidence favors Type2_Diabetes (18.2% confidence). The chest X-ray model predicts 1, with 99.2% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 43.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0016",
+    "summary": "Clinical model evidence favors Asthma (88.4% confidence). The chest X-ray model predicts 0, with 0.9% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 39.7%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0017",
+    "summary": "Clinical model evidence favors COPD (95.7% confidence). The chest X-ray model predicts 0, with 49.5% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 77.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0018",
+    "summary": "Clinical model evidence favors Asthma (65.3% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 72.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0019",
+    "summary": "Clinical model evidence favors Hyperthyroidism (92.0% confidence). The chest X-ray model predicts 0, with 0.6% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 44.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0020",
+    "summary": "Clinical model evidence favors Hyperthyroidism (97.6% confidence). The chest X-ray model predicts 0, with 1.5% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 50.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0021",
+    "summary": "Clinical model evidence favors Osteoarthritis (20.2% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 48.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0022",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (70.2% confidence). The chest X-ray model predicts 1, with 95.6% pneumonia probability. The medical-text module extracted 40 clinical entities. The resulting prototype multimodal evidence index is 78.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0023",
+    "summary": "Clinical model evidence favors Osteoarthritis (67.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 73.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0024",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (80.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 75 clinical entities. The resulting prototype multimodal evidence index is 92.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0025",
+    "summary": "Clinical model evidence favors Asthma (84.0% confidence). The chest X-ray model predicts 0, with 0.6% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 45.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0026",
+    "summary": "Clinical model evidence favors Gastritis (63.1% confidence). The chest X-ray model predicts 1, with 99.0% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 71.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0027",
+    "summary": "Clinical model evidence favors Osteoarthritis (37.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 65.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0028",
+    "summary": "Clinical model evidence favors Pneumonia (84.7% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 78.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0029",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (58.9% confidence). The chest X-ray model predicts 1, with 74.0% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 51.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0030",
+    "summary": "Clinical model evidence favors Gastritis (57.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 61.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0031",
+    "summary": "Clinical model evidence favors Common_Cold (47.2% confidence). The chest X-ray model predicts 1, with 74.1% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 61.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0032",
+    "summary": "Clinical model evidence favors Asthma (77.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 61.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0033",
+    "summary": "Clinical model evidence favors Asthma (71.7% confidence). The chest X-ray model predicts 0, with 22.9% pneumonia probability. The medical-text module extracted 55 clinical entities. The resulting prototype multimodal evidence index is 60.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0034",
+    "summary": "Clinical model evidence favors Flu (26.5% confidence). The chest X-ray model predicts 1, with 99.3% pneumonia probability. The medical-text module extracted 7 clinical entities. The resulting prototype multimodal evidence index is 43.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0035",
+    "summary": "Clinical model evidence favors Obesity (39.9% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 57.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0036",
+    "summary": "Clinical model evidence favors Gastritis (55.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 43 clinical entities. The resulting prototype multimodal evidence index is 76.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0037",
+    "summary": "Clinical model evidence favors Obesity (35.1% confidence). The chest X-ray model predicts 1, with 95.8% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 46.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0038",
+    "summary": "Clinical model evidence favors Hyperthyroidism (84.5% confidence). The chest X-ray model predicts 1, with 99.3% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 72.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0039",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (66.2% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 79.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0040",
+    "summary": "Clinical model evidence favors COVID19 (47.0% confidence). The chest X-ray model predicts 0, with 7.9% pneumonia probability. The medical-text module extracted 49 clinical entities. The resulting prototype multimodal evidence index is 45.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0041",
+    "summary": "Clinical model evidence favors Asthma (59.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 68.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0042",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (67.3% confidence). The chest X-ray model predicts 1, with 95.7% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 71.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0043",
+    "summary": "Clinical model evidence favors Obesity (53.5% confidence). The chest X-ray model predicts 1, with 93.2% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 64.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0044",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (62.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 71.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0045",
+    "summary": "Clinical model evidence favors Asthma (46.4% confidence). The chest X-ray model predicts 1, with 74.2% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 43.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0046",
+    "summary": "Clinical model evidence favors Type2_Diabetes (52.4% confidence). The chest X-ray model predicts 0, with 23.5% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 29.1%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0047",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (65.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 84 clinical entities. The resulting prototype multimodal evidence index is 87.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0048",
+    "summary": "Clinical model evidence favors Gastritis (58.4% confidence). The chest X-ray model predicts 1, with 98.3% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 67.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0049",
+    "summary": "Clinical model evidence favors Hypothyroidism (47.1% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 53.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0050",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (34.7% confidence). The chest X-ray model predicts 1, with 89.8% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 43.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0051",
+    "summary": "Clinical model evidence favors Pneumonia (84.8% confidence). The chest X-ray model predicts 0, with 7.3% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 40.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0052",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (35.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 57.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0053",
+    "summary": "Clinical model evidence favors Obesity (66.3% confidence). The chest X-ray model predicts 1, with 87.7% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 67.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0054",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (39.5% confidence). The chest X-ray model predicts 1, with 86.7% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 72.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0055",
+    "summary": "Clinical model evidence favors Pneumonia (73.2% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 80.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0056",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (97.2% confidence). The chest X-ray model predicts 1, with 70.1% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 62.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0057",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (35.7% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 41 clinical entities. The resulting prototype multimodal evidence index is 69.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0058",
+    "summary": "Clinical model evidence favors Obesity (28.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 49.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0059",
+    "summary": "Clinical model evidence favors Pneumonia (41.2% confidence). The chest X-ray model predicts 1, with 99.3% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 64.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0060",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (62.8% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 130 clinical entities. The resulting prototype multimodal evidence index is 87.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0061",
+    "summary": "Clinical model evidence favors Obesity (64.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 59.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0062",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (76.9% confidence). The chest X-ray model predicts 1, with 96.8% pneumonia probability. The medical-text module extracted 59 clinical entities. The resulting prototype multimodal evidence index is 87.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0063",
+    "summary": "Clinical model evidence favors Gastritis (37.2% confidence). The chest X-ray model predicts 0, with 26.2% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 31.8%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0064",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (83.4% confidence). The chest X-ray model predicts 1, with 81.4% pneumonia probability. The medical-text module extracted 34 clinical entities. The resulting prototype multimodal evidence index is 75.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0065",
+    "summary": "Clinical model evidence favors Asthma (53.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 58 clinical entities. The resulting prototype multimodal evidence index is 80.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0066",
+    "summary": "Clinical model evidence favors COVID19 (61.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 62.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0067",
+    "summary": "Clinical model evidence favors Asthma (51.9% confidence). The chest X-ray model predicts 0, with 2.3% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 22.1%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0068",
+    "summary": "Clinical model evidence favors Osteoarthritis (72.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 2 clinical entities. The resulting prototype multimodal evidence index is 58.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0069",
+    "summary": "Clinical model evidence favors Hyperthyroidism (68.6% confidence). The chest X-ray model predicts 1, with 73.1% pneumonia probability. The medical-text module extracted 7 clinical entities. The resulting prototype multimodal evidence index is 48.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0070",
+    "summary": "Clinical model evidence favors Hyperthyroidism (65.7% confidence). The chest X-ray model predicts 1, with 80.3% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 56.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0071",
+    "summary": "Clinical model evidence favors COPD (71.7% confidence). The chest X-ray model predicts 1, with 65.1% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 62.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0072",
+    "summary": "Clinical model evidence favors Osteoarthritis (94.2% confidence). The chest X-ray model predicts 1, with 80.9% pneumonia probability. The medical-text module extracted 102 clinical entities. The resulting prototype multimodal evidence index is 91.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0073",
+    "summary": "Clinical model evidence favors Depression (56.7% confidence). The chest X-ray model predicts 1, with 96.3% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 57.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0074",
+    "summary": "Clinical model evidence favors COVID19 (31.8% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 56 clinical entities. The resulting prototype multimodal evidence index is 73.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0075",
+    "summary": "Clinical model evidence favors Type2_Diabetes (62.0% confidence). The chest X-ray model predicts 0, with 3.7% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 36.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0076",
+    "summary": "Clinical model evidence favors Epilepsy (92.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 81.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0077",
+    "summary": "Clinical model evidence favors Asthma (68.6% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 59.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0078",
+    "summary": "Clinical model evidence favors Gastritis (54.9% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 65.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0079",
+    "summary": "Clinical model evidence favors Asthma (73.6% confidence). The chest X-ray model predicts 1, with 69.7% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 65.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0080",
+    "summary": "Clinical model evidence favors COPD (76.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 17 clinical entities. The resulting prototype multimodal evidence index is 66.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0081",
+    "summary": "Clinical model evidence favors Asthma (86.9% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 81.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0082",
+    "summary": "Clinical model evidence favors Pneumonia (94.9% confidence). The chest X-ray model predicts 1, with 87.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 69.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0083",
+    "summary": "Clinical model evidence favors Gastritis (80.8% confidence). The chest X-ray model predicts 0, with 41.2% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 51.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0084",
+    "summary": "Clinical model evidence favors Type2_Diabetes (27.7% confidence). The chest X-ray model predicts 0, with 0.9% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 12.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0085",
+    "summary": "Clinical model evidence favors Type2_Diabetes (46.9% confidence). The chest X-ray model predicts 1, with 96.1% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 71.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0086",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (60.2% confidence). The chest X-ray model predicts 1, with 95.2% pneumonia probability. The medical-text module extracted 4 clinical entities. The resulting prototype multimodal evidence index is 52.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0087",
+    "summary": "Clinical model evidence favors Asthma (83.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 133 clinical entities. The resulting prototype multimodal evidence index is 94.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0088",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (82.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 54 clinical entities. The resulting prototype multimodal evidence index is 89.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0089",
+    "summary": "Clinical model evidence favors Depression (60.5% confidence). The chest X-ray model predicts 1, with 71.5% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 47.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0090",
+    "summary": "Clinical model evidence favors Asthma (30.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 51 clinical entities. The resulting prototype multimodal evidence index is 71.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0091",
+    "summary": "Clinical model evidence favors Asthma (47.3% confidence). The chest X-ray model predicts 1, with 62.3% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 65.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0092",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (81.4% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 58 clinical entities. The resulting prototype multimodal evidence index is 90.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0093",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (41.2% confidence). The chest X-ray model predicts 1, with 97.4% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 51.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0094",
+    "summary": "Clinical model evidence favors Osteoarthritis (76.5% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 47 clinical entities. The resulting prototype multimodal evidence index is 85.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0095",
+    "summary": "Clinical model evidence favors Asthma (67.5% confidence). The chest X-ray model predicts 1, with 92.4% pneumonia probability. The medical-text module extracted 37 clinical entities. The resulting prototype multimodal evidence index is 75.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0096",
+    "summary": "Clinical model evidence favors COVID19 (61.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 64.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0097",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (70.7% confidence). The chest X-ray model predicts 1, with 91.7% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 71.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0098",
+    "summary": "Clinical model evidence favors Type2_Diabetes (68.1% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 80.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0099",
+    "summary": "Clinical model evidence favors Hyperthyroidism (70.1% confidence). The chest X-ray model predicts 0, with 2.7% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 39.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0100",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (91.6% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 82.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0101",
+    "summary": "Clinical model evidence favors Hyperthyroidism (36.1% confidence). The chest X-ray model predicts 0, with 37.5% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 39.9%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0102",
+    "summary": "Clinical model evidence favors Asthma (92.3% confidence). The chest X-ray model predicts 0, with 4.4% pneumonia probability. The medical-text module extracted 37 clinical entities. The resulting prototype multimodal evidence index is 54.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0103",
+    "summary": "Clinical model evidence favors Asthma (95.5% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 79.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0104",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (40.0% confidence). The chest X-ray model predicts 1, with 98.8% pneumonia probability. The medical-text module extracted 65 clinical entities. The resulting prototype multimodal evidence index is 77.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0105",
+    "summary": "Clinical model evidence favors Type2_Diabetes (55.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 66.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0106",
+    "summary": "Clinical model evidence favors Asthma (26.7% confidence). The chest X-ray model predicts 0, with 3.3% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 33.4%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0107",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (21.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 52.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0108",
+    "summary": "Clinical model evidence favors Asthma (85.6% confidence). The chest X-ray model predicts 0, with 1.3% pneumonia probability. The medical-text module extracted 47 clinical entities. The resulting prototype multimodal evidence index is 55.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0109",
+    "summary": "Clinical model evidence favors Asthma (60.6% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 83.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0110",
+    "summary": "Clinical model evidence favors Asthma (79.6% confidence). The chest X-ray model predicts 1, with 65.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 56.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0111",
+    "summary": "Clinical model evidence favors Asthma (96.3% confidence). The chest X-ray model predicts 1, with 90.0% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 78.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0112",
+    "summary": "Clinical model evidence favors Pneumonia (79.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 76 clinical entities. The resulting prototype multimodal evidence index is 91.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0113",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (59.4% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 74.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0114",
+    "summary": "Clinical model evidence favors Pneumonia (41.9% confidence). The chest X-ray model predicts 0, with 7.9% pneumonia probability. The medical-text module extracted 56 clinical entities. The resulting prototype multimodal evidence index is 45.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0115",
+    "summary": "Clinical model evidence favors Pneumonia (61.9% confidence). The chest X-ray model predicts 0, with 37.8% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 45.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0116",
+    "summary": "Clinical model evidence favors Pneumonia (22.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 51.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0117",
+    "summary": "Clinical model evidence favors Asthma (68.7% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 68 clinical entities. The resulting prototype multimodal evidence index is 87.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0118",
+    "summary": "Clinical model evidence favors Pneumonia (50.5% confidence). The chest X-ray model predicts 0, with 1.4% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 21.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0119",
+    "summary": "Clinical model evidence favors Pneumonia (64.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 59.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0120",
+    "summary": "Clinical model evidence favors Hyperthyroidism (25.3% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 50 clinical entities. The resulting prototype multimodal evidence index is 69.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0121",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (34.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 73.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0122",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (60.1% confidence). The chest X-ray model predicts 1, with 95.3% pneumonia probability. The medical-text module extracted 47 clinical entities. The resulting prototype multimodal evidence index is 78.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0123",
+    "summary": "Clinical model evidence favors Common_Cold (35.1% confidence). The chest X-ray model predicts 1, with 98.7% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 48.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0124",
+    "summary": "Clinical model evidence favors Gastritis (17.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 62.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0125",
+    "summary": "Clinical model evidence favors Gastritis (40.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 62.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0126",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (49.2% confidence). The chest X-ray model predicts 1, with 89.0% pneumonia probability. The medical-text module extracted 40 clinical entities. The resulting prototype multimodal evidence index is 69.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0127",
+    "summary": "Clinical model evidence favors Hypothyroidism (23.4% confidence). The chest X-ray model predicts 0, with 1.3% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 29.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0128",
+    "summary": "Clinical model evidence favors Obesity (99.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 73.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0129",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (93.7% confidence). The chest X-ray model predicts 0, with 1.2% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 53.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0130",
+    "summary": "Clinical model evidence favors Obesity (24.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 58.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0131",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (87.5% confidence). The chest X-ray model predicts 1, with 98.7% pneumonia probability. The medical-text module extracted 156 clinical entities. The resulting prototype multimodal evidence index is 95.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0132",
+    "summary": "Clinical model evidence favors Hyperthyroidism (66.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 48 clinical entities. The resulting prototype multimodal evidence index is 82.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0133",
+    "summary": "Clinical model evidence favors Hyperthyroidism (72.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 69.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0134",
+    "summary": "Clinical model evidence favors Gastritis (95.1% confidence). The chest X-ray model predicts 1, with 92.5% pneumonia probability. The medical-text module extracted 40 clinical entities. The resulting prototype multimodal evidence index is 86.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0135",
+    "summary": "Clinical model evidence favors Hyperthyroidism (62.3% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 64 clinical entities. The resulting prototype multimodal evidence index is 85.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0136",
+    "summary": "Clinical model evidence favors Obesity (66.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 62.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0137",
+    "summary": "Clinical model evidence favors Asthma (77.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 81.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0138",
+    "summary": "Clinical model evidence favors Osteoarthritis (23.2% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 61.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0139",
+    "summary": "Clinical model evidence favors Hyperthyroidism (90.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 37 clinical entities. The resulting prototype multimodal evidence index is 85.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0140",
+    "summary": "Clinical model evidence favors Flu (40.8% confidence). The chest X-ray model predicts 0, with 6.2% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 21.9%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0141",
+    "summary": "Clinical model evidence favors Osteoarthritis (66.7% confidence). The chest X-ray model predicts 0, with 17.5% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 32.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0142",
+    "summary": "Clinical model evidence favors Hyperthyroidism (88.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 70.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0143",
+    "summary": "Clinical model evidence favors Hyperthyroidism (65.1% confidence). The chest X-ray model predicts 0, with 14.6% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 29.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0144",
+    "summary": "Clinical model evidence favors Hyperthyroidism (85.5% confidence). The chest X-ray model predicts 1, with 94.9% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 85.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0145",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (87.5% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 84 clinical entities. The resulting prototype multimodal evidence index is 94.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0146",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (55.8% confidence). The chest X-ray model predicts 1, with 85.8% pneumonia probability. The medical-text module extracted 41 clinical entities. The resulting prototype multimodal evidence index is 71.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0147",
+    "summary": "Clinical model evidence favors Asthma (66.8% confidence). The chest X-ray model predicts 1, with 89.9% pneumonia probability. The medical-text module extracted 45 clinical entities. The resulting prototype multimodal evidence index is 78.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0148",
+    "summary": "Clinical model evidence favors Flu (76.6% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 74.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0149",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (30.1% confidence). The chest X-ray model predicts 0, with 2.8% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 19.8%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0150",
+    "summary": "Clinical model evidence favors Asthma (28.1% confidence). The chest X-ray model predicts 0, with 2.4% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 30.4%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0151",
+    "summary": "Clinical model evidence favors Asthma (87.3% confidence). The chest X-ray model predicts 0, with 49.2% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 58.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0152",
+    "summary": "Clinical model evidence favors Obesity (74.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 63.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0153",
+    "summary": "Clinical model evidence favors Asthma (33.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 62.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0154",
+    "summary": "Clinical model evidence favors Asthma (15.0% confidence). The chest X-ray model predicts 1, with 84.5% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 53.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0155",
+    "summary": "Clinical model evidence favors Hyperthyroidism (38.4% confidence). The chest X-ray model predicts 1, with 77.1% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 40.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0156",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (79.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 79.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0157",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (82.8% confidence). The chest X-ray model predicts 0, with 6.9% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 43.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0158",
+    "summary": "Clinical model evidence favors Asthma (64.0% confidence). The chest X-ray model predicts 0, with 36.9% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 52.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0159",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (47.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 52 clinical entities. The resulting prototype multimodal evidence index is 77.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0160",
+    "summary": "Clinical model evidence favors Obesity (78.0% confidence). The chest X-ray model predicts 0, with 1.5% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 45.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0161",
+    "summary": "Clinical model evidence favors Pneumonia (25.3% confidence). The chest X-ray model predicts 1, with 90.0% pneumonia probability. The medical-text module extracted 43 clinical entities. The resulting prototype multimodal evidence index is 63.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0162",
+    "summary": "Clinical model evidence favors Hyperthyroidism (58.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 69.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0163",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (74.6% confidence). The chest X-ray model predicts 1, with 90.4% pneumonia probability. The medical-text module extracted 49 clinical entities. The resulting prototype multimodal evidence index is 82.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0164",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (45.4% confidence). The chest X-ray model predicts 1, with 98.5% pneumonia probability. The medical-text module extracted 45 clinical entities. The resulting prototype multimodal evidence index is 74.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0165",
+    "summary": "Clinical model evidence favors Asthma (85.3% confidence). The chest X-ray model predicts 0, with 10.2% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 45.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0166",
+    "summary": "Clinical model evidence favors Type2_Diabetes (91.2% confidence). The chest X-ray model predicts 1, with 97.8% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 88.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0167",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (53.4% confidence). The chest X-ray model predicts 1, with 95.8% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 60.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0168",
+    "summary": "Clinical model evidence favors Obesity (84.9% confidence). The chest X-ray model predicts 1, with 87.1% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 58.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0169",
+    "summary": "Clinical model evidence favors Asthma (46.0% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 59.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0170",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (81.6% confidence). The chest X-ray model predicts 0, with 3.9% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 38.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0171",
+    "summary": "Clinical model evidence favors Depression (42.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 62.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0172",
+    "summary": "Clinical model evidence favors Hypertension (82.2% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 85.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0173",
+    "summary": "Clinical model evidence favors Pneumonia (37.4% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 64.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0174",
+    "summary": "Clinical model evidence favors Gastritis (27.6% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 57.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0175",
+    "summary": "Clinical model evidence favors Hyperthyroidism (70.1% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 70 clinical entities. The resulting prototype multimodal evidence index is 88.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0176",
+    "summary": "Clinical model evidence favors Common_Cold (65.6% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 75.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0177",
+    "summary": "Clinical model evidence favors Pneumonia (29.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 52.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0178",
+    "summary": "Clinical model evidence favors Asthma (81.2% confidence). The chest X-ray model predicts 0, with 22.8% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 38.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0179",
+    "summary": "Clinical model evidence favors Hyperthyroidism (96.8% confidence). The chest X-ray model predicts 1, with 95.5% pneumonia probability. The medical-text module extracted 64 clinical entities. The resulting prototype multimodal evidence index is 95.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0180",
+    "summary": "Clinical model evidence favors Hyperthyroidism (59.1% confidence). The chest X-ray model predicts 1, with 98.6% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 54.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0181",
+    "summary": "Clinical model evidence favors Asthma (93.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 1 clinical entities. The resulting prototype multimodal evidence index is 64.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0182",
+    "summary": "Clinical model evidence favors Asthma (93.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 84.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0183",
+    "summary": "Clinical model evidence favors Pneumonia (25.0% confidence). The chest X-ray model predicts 1, with 98.7% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 62.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0184",
+    "summary": "Clinical model evidence favors Asthma (95.7% confidence). The chest X-ray model predicts 0, with 34.7% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 48.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0185",
+    "summary": "Clinical model evidence favors Common_Cold (47.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 61.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0186",
+    "summary": "Clinical model evidence favors Obesity (92.0% confidence). The chest X-ray model predicts 0, with 0.8% pneumonia probability. The medical-text module extracted 70 clinical entities. The resulting prototype multimodal evidence index is 62.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0187",
+    "summary": "Clinical model evidence favors Hyperthyroidism (42.3% confidence). The chest X-ray model predicts 0, with 41.7% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 52.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0188",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (46.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 60.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0189",
+    "summary": "Clinical model evidence favors Pneumonia (92.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 71.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0190",
+    "summary": "Clinical model evidence favors Obesity (82.2% confidence). The chest X-ray model predicts 0, with 13.5% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 62.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0191",
+    "summary": "Clinical model evidence favors Depression (81.3% confidence). The chest X-ray model predicts 1, with 82.6% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 66.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0192",
+    "summary": "Clinical model evidence favors Flu (63.8% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 68.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0193",
+    "summary": "Clinical model evidence favors Hyperthyroidism (30.1% confidence). The chest X-ray model predicts 1, with 99.0% pneumonia probability. The medical-text module extracted 55 clinical entities. The resulting prototype multimodal evidence index is 72.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0194",
+    "summary": "Clinical model evidence favors Asthma (87.2% confidence). The chest X-ray model predicts 1, with 86.0% pneumonia probability. The medical-text module extracted 40 clinical entities. The resulting prototype multimodal evidence index is 81.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0195",
+    "summary": "Clinical model evidence favors Type2_Diabetes (67.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 41 clinical entities. The resulting prototype multimodal evidence index is 79.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0196",
+    "summary": "Clinical model evidence favors Asthma (80.3% confidence). The chest X-ray model predicts 0, with 30.3% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 38.4%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0197",
+    "summary": "Clinical model evidence favors Osteoarthritis (27.4% confidence). The chest X-ray model predicts 1, with 83.2% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 55.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0198",
+    "summary": "Clinical model evidence favors Gastritis (43.3% confidence). The chest X-ray model predicts 1, with 64.1% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 49.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0199",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (73.2% confidence). The chest X-ray model predicts 1, with 96.2% pneumonia probability. The medical-text module extracted 55 clinical entities. The resulting prototype multimodal evidence index is 85.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0200",
+    "summary": "Clinical model evidence favors Hyperthyroidism (43.7% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 69 clinical entities. The resulting prototype multimodal evidence index is 79.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0201",
+    "summary": "Clinical model evidence favors Hyperthyroidism (23.2% confidence). The chest X-ray model predicts 0, with 2.7% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 14.9%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0202",
+    "summary": "Clinical model evidence favors Asthma (64.6% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 76.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0203",
+    "summary": "Clinical model evidence favors Flu (36.9% confidence). The chest X-ray model predicts 1, with 97.6% pneumonia probability. The medical-text module extracted 3 clinical entities. The resulting prototype multimodal evidence index is 45.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0204",
+    "summary": "Clinical model evidence favors COVID19 (73.5% confidence). The chest X-ray model predicts 1, with 89.8% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 73.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0205",
+    "summary": "Clinical model evidence favors Asthma (76.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 78.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0206",
+    "summary": "Clinical model evidence favors Hyperthyroidism (42.9% confidence). The chest X-ray model predicts 0, with 4.4% pneumonia probability. The medical-text module extracted 50 clinical entities. The resulting prototype multimodal evidence index is 43.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0207",
+    "summary": "Clinical model evidence favors Hypertension (59.2% confidence). The chest X-ray model predicts 1, with 98.5% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 80.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0208",
+    "summary": "Clinical model evidence favors Asthma (78.3% confidence). The chest X-ray model predicts 1, with 98.7% pneumonia probability. The medical-text module extracted 51 clinical entities. The resulting prototype multimodal evidence index is 86.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0209",
+    "summary": "Clinical model evidence favors Gastritis (81.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 46 clinical entities. The resulting prototype multimodal evidence index is 86.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0210",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (63.5% confidence). The chest X-ray model predicts 1, with 89.6% pneumonia probability. The medical-text module extracted 6 clinical entities. The resulting prototype multimodal evidence index is 52.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0211",
+    "summary": "Clinical model evidence favors Asthma (94.4% confidence). The chest X-ray model predicts 1, with 99.2% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 78.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0212",
+    "summary": "Clinical model evidence favors Hyperthyroidism (38.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 62 clinical entities. The resulting prototype multimodal evidence index is 76.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0213",
+    "summary": "Clinical model evidence favors COVID19 (45.8% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 59.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0214",
+    "summary": "Clinical model evidence favors Common_Cold (59.2% confidence). The chest X-ray model predicts 0, with 0.4% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 38.3%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0215",
+    "summary": "Clinical model evidence favors Hyperthyroidism (73.2% confidence). The chest X-ray model predicts 0, with 2.0% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 28.4%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0216",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (80.9% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 82.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0217",
+    "summary": "Clinical model evidence favors Flu (43.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 70 clinical entities. The resulting prototype multimodal evidence index is 79.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0218",
+    "summary": "Clinical model evidence favors Asthma (38.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 62.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0219",
+    "summary": "Clinical model evidence favors Migraine (35.0% confidence). The chest X-ray model predicts 0, with 23.0% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 42.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0220",
+    "summary": "Clinical model evidence favors Asthma (32.0% confidence). The chest X-ray model predicts 1, with 97.1% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 53.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0221",
+    "summary": "Clinical model evidence favors Hyperthyroidism (72.9% confidence). The chest X-ray model predicts 0, with 0.7% pneumonia probability. The medical-text module extracted 26 clinical entities. The resulting prototype multimodal evidence index is 39.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0222",
+    "summary": "Clinical model evidence favors Asthma (48.8% confidence). The chest X-ray model predicts 1, with 95.7% pneumonia probability. The medical-text module extracted 1 clinical entities. The resulting prototype multimodal evidence index is 48.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0223",
+    "summary": "Clinical model evidence favors Asthma (68.4% confidence). The chest X-ray model predicts 0, with 4.8% pneumonia probability. The medical-text module extracted 49 clinical entities. The resulting prototype multimodal evidence index is 51.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0224",
+    "summary": "Clinical model evidence favors Asthma (88.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 80.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0225",
+    "summary": "Clinical model evidence favors Asthma (67.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 74.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0226",
+    "summary": "Clinical model evidence favors Hypothyroidism (42.7% confidence). The chest X-ray model predicts 1, with 93.2% pneumonia probability. The medical-text module extracted 59 clinical entities. The resulting prototype multimodal evidence index is 75.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0227",
+    "summary": "Clinical model evidence favors Hyperthyroidism (29.9% confidence). The chest X-ray model predicts 0, with 5.4% pneumonia probability. The medical-text module extracted 48 clinical entities. The resulting prototype multimodal evidence index is 38.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0228",
+    "summary": "Clinical model evidence favors Asthma (81.5% confidence). The chest X-ray model predicts 1, with 99.1% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 72.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0229",
+    "summary": "Clinical model evidence favors Flu (59.1% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 56.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0230",
+    "summary": "Clinical model evidence favors Gastritis (59.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 55.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0231",
+    "summary": "Clinical model evidence favors Pneumonia (77.8% confidence). The chest X-ray model predicts 0, with 17.9% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 43.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0232",
+    "summary": "Clinical model evidence favors Pneumonia (85.0% confidence). The chest X-ray model predicts 1, with 92.2% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 82.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0233",
+    "summary": "Clinical model evidence favors Asthma (88.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 70.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0234",
+    "summary": "Clinical model evidence favors Common_Cold (71.0% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 64.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0235",
+    "summary": "Clinical model evidence favors Type2_Diabetes (72.3% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 60.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0236",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (58.1% confidence). The chest X-ray model predicts 1, with 94.1% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 56.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0237",
+    "summary": "Clinical model evidence favors Asthma (93.0% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 72.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0238",
+    "summary": "Clinical model evidence favors Asthma (79.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 68.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0239",
+    "summary": "Clinical model evidence favors Flu (29.4% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 68.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0240",
+    "summary": "Clinical model evidence favors Type2_Diabetes (44.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 89 clinical entities. The resulting prototype multimodal evidence index is 80.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0241",
+    "summary": "Clinical model evidence favors Osteoarthritis (52.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 60.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0242",
+    "summary": "Clinical model evidence favors Asthma (93.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 74.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0243",
+    "summary": "Clinical model evidence favors Asthma (80.8% confidence). The chest X-ray model predicts 0, with 46.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 50.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0244",
+    "summary": "Clinical model evidence favors Common_Cold (97.8% confidence). The chest X-ray model predicts 1, with 51.3% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 61.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0245",
+    "summary": "Clinical model evidence favors Hyperthyroidism (83.1% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 71 clinical entities. The resulting prototype multimodal evidence index is 92.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0246",
+    "summary": "Clinical model evidence favors COVID19 (74.0% confidence). The chest X-ray model predicts 1, with 94.8% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 79.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0247",
+    "summary": "Clinical model evidence favors Hyperthyroidism (19.1% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 41.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0248",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (88.7% confidence). The chest X-ray model predicts 0, with 33.6% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 43.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0249",
+    "summary": "Clinical model evidence favors Pneumonia (57.0% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 68.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0250",
+    "summary": "Clinical model evidence favors Hypertension (68.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 76.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0251",
+    "summary": "Clinical model evidence favors Asthma (77.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 64.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0252",
+    "summary": "Clinical model evidence favors Osteoarthritis (92.8% confidence). The chest X-ray model predicts 1, with 97.1% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 73.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0253",
+    "summary": "Clinical model evidence favors Hypothyroidism (17.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 81 clinical entities. The resulting prototype multimodal evidence index is 71.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0254",
+    "summary": "Clinical model evidence favors Hyperthyroidism (51.3% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 55.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0255",
+    "summary": "Clinical model evidence favors Flu (63.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 82.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0256",
+    "summary": "Clinical model evidence favors Asthma (33.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 37 clinical entities. The resulting prototype multimodal evidence index is 67.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0257",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (54.9% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 76.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0258",
+    "summary": "Clinical model evidence favors Hyperthyroidism (73.5% confidence). The chest X-ray model predicts 1, with 93.9% pneumonia probability. The medical-text module extracted 54 clinical entities. The resulting prototype multimodal evidence index is 84.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0259",
+    "summary": "Clinical model evidence favors Asthma (72.8% confidence). The chest X-ray model predicts 1, with 99.3% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 63.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0260",
+    "summary": "Clinical model evidence favors Asthma (20.7% confidence). The chest X-ray model predicts 0, with 49.3% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 32.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0261",
+    "summary": "Clinical model evidence favors Obesity (22.6% confidence). The chest X-ray model predicts 0, with 1.5% pneumonia probability. The medical-text module extracted 81 clinical entities. The resulting prototype multimodal evidence index is 40.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0262",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (68.7% confidence). The chest X-ray model predicts 0, with 1.3% pneumonia probability. The medical-text module extracted 49 clinical entities. The resulting prototype multimodal evidence index is 50.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0263",
+    "summary": "Clinical model evidence favors Asthma (68.0% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 109 clinical entities. The resulting prototype multimodal evidence index is 89.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0264",
+    "summary": "Clinical model evidence favors Hyperthyroidism (93.7% confidence). The chest X-ray model predicts 0, with 3.9% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 47.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0265",
+    "summary": "Clinical model evidence favors Asthma (79.1% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 74.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0266",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (47.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 65.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0267",
+    "summary": "Clinical model evidence favors Depression (46.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 58.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0268",
+    "summary": "Clinical model evidence favors Common_Cold (75.9% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 84 clinical entities. The resulting prototype multimodal evidence index is 91.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0269",
+    "summary": "Clinical model evidence favors Obesity (82.5% confidence). The chest X-ray model predicts 1, with 91.6% pneumonia probability. The medical-text module extracted 34 clinical entities. The resulting prototype multimodal evidence index is 78.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0270",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (64.3% confidence). The chest X-ray model predicts 0, with 5.0% pneumonia probability. The medical-text module extracted 46 clinical entities. The resulting prototype multimodal evidence index is 49.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0271",
+    "summary": "Clinical model evidence favors Hypothyroidism (46.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 60.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0272",
+    "summary": "Clinical model evidence favors Hyperthyroidism (77.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 66.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0273",
+    "summary": "Clinical model evidence favors Asthma (51.7% confidence). The chest X-ray model predicts 1, with 98.7% pneumonia probability. The medical-text module extracted 75 clinical entities. The resulting prototype multimodal evidence index is 82.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0274",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (39.9% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 59.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0275",
+    "summary": "Clinical model evidence favors Flu (31.0% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 0 clinical entities. The resulting prototype multimodal evidence index is 43.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0276",
+    "summary": "Clinical model evidence favors Obesity (40.9% confidence). The chest X-ray model predicts 1, with 85.4% pneumonia probability. The medical-text module extracted 96 clinical entities. The resulting prototype multimodal evidence index is 74.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0277",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (33.6% confidence). The chest X-ray model predicts 0, with 7.9% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 21.8%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0278",
+    "summary": "Clinical model evidence favors Hyperthyroidism (51.0% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 0 clinical entities. The resulting prototype multimodal evidence index is 50.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0279",
+    "summary": "Clinical model evidence favors Pneumonia (79.8% confidence). The chest X-ray model predicts 0, with 26.5% pneumonia probability. The medical-text module extracted 51 clinical entities. The resulting prototype multimodal evidence index is 63.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0280",
+    "summary": "Clinical model evidence favors Asthma (27.3% confidence). The chest X-ray model predicts 1, with 54.8% pneumonia probability. The medical-text module extracted 57 clinical entities. The resulting prototype multimodal evidence index is 56.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0281",
+    "summary": "Clinical model evidence favors Pneumonia (61.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 1 clinical entities. The resulting prototype multimodal evidence index is 54.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0282",
+    "summary": "Clinical model evidence favors Osteoarthritis (68.9% confidence). The chest X-ray model predicts 1, with 81.1% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 61.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0283",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (22.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 53.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0284",
+    "summary": "Clinical model evidence favors Hyperthyroidism (96.9% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 79.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0285",
+    "summary": "Clinical model evidence favors COVID19 (22.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 42.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0286",
+    "summary": "Clinical model evidence favors Common_Cold (42.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 51.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0287",
+    "summary": "Clinical model evidence favors Pneumonia (81.3% confidence). The chest X-ray model predicts 1, with 98.8% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 74.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0288",
+    "summary": "Clinical model evidence favors Asthma (86.0% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 65.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0289",
+    "summary": "Clinical model evidence favors Pneumonia (51.9% confidence). The chest X-ray model predicts 0, with 1.7% pneumonia probability. The medical-text module extracted 58 clinical entities. The resulting prototype multimodal evidence index is 47.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0290",
+    "summary": "Clinical model evidence favors Hypertension (22.2% confidence). The chest X-ray model predicts 0, with 0.9% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 19.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0291",
+    "summary": "Clinical model evidence favors Asthma (44.2% confidence). The chest X-ray model predicts 1, with 75.4% pneumonia probability. The medical-text module extracted 5 clinical entities. The resulting prototype multimodal evidence index is 40.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0292",
+    "summary": "Clinical model evidence favors Obesity (21.4% confidence). The chest X-ray model predicts 1, with 96.7% pneumonia probability. The medical-text module extracted 37 clinical entities. The resulting prototype multimodal evidence index is 61.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0293",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (24.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 51.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0294",
+    "summary": "Clinical model evidence favors Osteoarthritis (39.1% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 60.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0295",
+    "summary": "Clinical model evidence favors Asthma (42.6% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 65.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0296",
+    "summary": "Clinical model evidence favors Hyperthyroidism (88.6% confidence). The chest X-ray model predicts 0, with 0.3% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 44.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0297",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (20.3% confidence). The chest X-ray model predicts 0, with 33.4% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 24.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0298",
+    "summary": "Clinical model evidence favors Flu (40.3% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 60.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0299",
+    "summary": "Clinical model evidence favors Asthma (35.0% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 46 clinical entities. The resulting prototype multimodal evidence index is 71.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0300",
+    "summary": "Clinical model evidence favors Flu (66.0% confidence). The chest X-ray model predicts 1, with 96.2% pneumonia probability. The medical-text module extracted 11 clinical entities. The resulting prototype multimodal evidence index is 57.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0301",
+    "summary": "Clinical model evidence favors Hyperthyroidism (38.3% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 72.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0302",
+    "summary": "Clinical model evidence favors Gastritis (41.5% confidence). The chest X-ray model predicts 0, with 1.3% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 37.3%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0303",
+    "summary": "Clinical model evidence favors Depression (96.9% confidence). The chest X-ray model predicts 0, with 0.6% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 45.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0304",
+    "summary": "Clinical model evidence favors Type2_Diabetes (80.5% confidence). The chest X-ray model predicts 1, with 96.6% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 61.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0305",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (33.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 65.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0306",
+    "summary": "Clinical model evidence favors Asthma (37.6% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 50.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0307",
+    "summary": "Clinical model evidence favors Cystic_Fibrosis (99.8% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 41 clinical entities. The resulting prototype multimodal evidence index is 90.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0308",
+    "summary": "Clinical model evidence favors Pneumonia (53.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 52.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0309",
+    "summary": "Clinical model evidence favors Asthma (85.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 83.5%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0310",
+    "summary": "Clinical model evidence favors Common_Cold (84.0% confidence). The chest X-ray model predicts 0, with 2.1% pneumonia probability. The medical-text module extracted 47 clinical entities. The resulting prototype multimodal evidence index is 55.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0311",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (46.9% confidence). The chest X-ray model predicts 1, with 90.4% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 58.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0312",
+    "summary": "Clinical model evidence favors Asthma (87.2% confidence). The chest X-ray model predicts 1, with 97.6% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 83.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0313",
+    "summary": "Clinical model evidence favors Obesity (53.3% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 60 clinical entities. The resulting prototype multimodal evidence index is 81.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0314",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (67.0% confidence). The chest X-ray model predicts 1, with 79.6% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 50.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0315",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (57.4% confidence). The chest X-ray model predicts 0, with 4.4% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 22.7%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0316",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (41.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 4 clinical entities. The resulting prototype multimodal evidence index is 47.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0317",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (33.4% confidence). The chest X-ray model predicts 0, with 0.5% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 17.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0318",
+    "summary": "Clinical model evidence favors Obesity (66.0% confidence). The chest X-ray model predicts 0, with 4.2% pneumonia probability. The medical-text module extracted 80 clinical entities. The resulting prototype multimodal evidence index is 55.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0319",
+    "summary": "Clinical model evidence favors Asthma (51.2% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 55.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0320",
+    "summary": "Clinical model evidence favors Osteoarthritis (40.3% confidence). The chest X-ray model predicts 1, with 78.8% pneumonia probability. The medical-text module extracted 39 clinical entities. The resulting prototype multimodal evidence index is 63.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0321",
+    "summary": "Clinical model evidence favors Pneumonia (41.2% confidence). The chest X-ray model predicts 1, with 78.5% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 60.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0322",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (80.2% confidence). The chest X-ray model predicts 1, with 79.7% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 72.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0323",
+    "summary": "Clinical model evidence favors Pneumonia (39.6% confidence). The chest X-ray model predicts 1, with 86.6% pneumonia probability. The medical-text module extracted 55 clinical entities. The resulting prototype multimodal evidence index is 71.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0324",
+    "summary": "Clinical model evidence favors Asthma (35.4% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 74 clinical entities. The resulting prototype multimodal evidence index is 76.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0325",
+    "summary": "Clinical model evidence favors Flu (79.4% confidence). The chest X-ray model predicts 0, with 17.1% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 62.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0326",
+    "summary": "Clinical model evidence favors Asthma (39.2% confidence). The chest X-ray model predicts 1, with 96.6% pneumonia probability. The medical-text module extracted 81 clinical entities. The resulting prototype multimodal evidence index is 77.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0327",
+    "summary": "Clinical model evidence favors Hyperthyroidism (21.3% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 50 clinical entities. The resulting prototype multimodal evidence index is 67.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0328",
+    "summary": "Clinical model evidence favors Hyperthyroidism (68.1% confidence). The chest X-ray model predicts 1, with 99.0% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 86.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0329",
+    "summary": "Clinical model evidence favors Common_Cold (72.6% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 75.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0330",
+    "summary": "Clinical model evidence favors Type2_Diabetes (63.0% confidence). The chest X-ray model predicts 1, with 98.6% pneumonia probability. The medical-text module extracted 49 clinical entities. The resulting prototype multimodal evidence index is 81.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0331",
+    "summary": "Clinical model evidence favors Asthma (50.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 71.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0332",
+    "summary": "Clinical model evidence favors Asthma (75.3% confidence). The chest X-ray model predicts 1, with 92.1% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 86.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0333",
+    "summary": "Clinical model evidence favors Type2_Diabetes (60.8% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 75.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0334",
+    "summary": "Clinical model evidence favors Type2_Diabetes (79.0% confidence). The chest X-ray model predicts 1, with 72.9% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 66.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0335",
+    "summary": "Clinical model evidence favors Asthma (48.7% confidence). The chest X-ray model predicts 1, with 87.6% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 59.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0336",
+    "summary": "Clinical model evidence favors Type2_Diabetes (27.6% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 51.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0337",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (32.7% confidence). The chest X-ray model predicts 1, with 78.8% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 63.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0338",
+    "summary": "Clinical model evidence favors Hyperthyroidism (53.0% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 58.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0339",
+    "summary": "Clinical model evidence favors Gastritis (53.8% confidence). The chest X-ray model predicts 1, with 97.2% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 59.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0340",
+    "summary": "Clinical model evidence favors Flu (91.0% confidence). The chest X-ray model predicts 0, with 49.1% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 63.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0341",
+    "summary": "Clinical model evidence favors Hyperthyroidism (83.1% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 72.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0342",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (82.4% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 40 clinical entities. The resulting prototype multimodal evidence index is 84.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0343",
+    "summary": "Clinical model evidence favors Osteoarthritis (82.8% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 66.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0344",
+    "summary": "Clinical model evidence favors Asthma (45.6% confidence). The chest X-ray model predicts 0, with 25.7% pneumonia probability. The medical-text module extracted 61 clinical entities. The resulting prototype multimodal evidence index is 54.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0345",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (79.4% confidence). The chest X-ray model predicts 0, with 0.5% pneumonia probability. The medical-text module extracted 70 clinical entities. The resulting prototype multimodal evidence index is 58.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0346",
+    "summary": "Clinical model evidence favors Type2_Diabetes (47.1% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 30 clinical entities. The resulting prototype multimodal evidence index is 66.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0347",
+    "summary": "Clinical model evidence favors Obesity (42.1% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 57.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0348",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (53.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 21 clinical entities. The resulting prototype multimodal evidence index is 62.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0349",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (51.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 80.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0350",
+    "summary": "Clinical model evidence favors Asthma (62.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 60.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0351",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (63.6% confidence). The chest X-ray model predicts 0, with 0.1% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 34.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0352",
+    "summary": "Clinical model evidence favors Obesity (80.1% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 81 clinical entities. The resulting prototype multimodal evidence index is 92.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0353",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (61.9% confidence). The chest X-ray model predicts 0, with 8.3% pneumonia probability. The medical-text module extracted 0 clinical entities. The resulting prototype multimodal evidence index is 23.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0354",
+    "summary": "Clinical model evidence favors Asthma (44.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 73.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0355",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (26.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 68 clinical entities. The resulting prototype multimodal evidence index is 73.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0356",
+    "summary": "Clinical model evidence favors Osteoarthritis (70.1% confidence). The chest X-ray model predicts 1, with 54.3% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 49.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0357",
+    "summary": "Clinical model evidence favors Asthma (98.1% confidence). The chest X-ray model predicts 1, with 61.2% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 59.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0358",
+    "summary": "Clinical model evidence favors Asthma (79.0% confidence). The chest X-ray model predicts 1, with 94.0% pneumonia probability. The medical-text module extracted 60 clinical entities. The resulting prototype multimodal evidence index is 87.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0359",
+    "summary": "Clinical model evidence favors Hyperthyroidism (80.7% confidence). The chest X-ray model predicts 1, with 88.6% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 64.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0360",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (24.6% confidence). The chest X-ray model predicts 0, with 32.4% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 31.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0361",
+    "summary": "Clinical model evidence favors Hypothyroidism (67.1% confidence). The chest X-ray model predicts 1, with 96.9% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 71.4%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0362",
+    "summary": "Clinical model evidence favors Flu (63.3% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 73.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0363",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (93.0% confidence). The chest X-ray model predicts 0, with 11.7% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 44.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0364",
+    "summary": "Clinical model evidence favors Asthma (90.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 84.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0365",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (57.1% confidence). The chest X-ray model predicts 0, with 11.8% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 41.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0366",
+    "summary": "Clinical model evidence favors Asthma (83.0% confidence). The chest X-ray model predicts 1, with 87.9% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 62.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0367",
+    "summary": "Clinical model evidence favors Type2_Diabetes (44.2% confidence). The chest X-ray model predicts 1, with 90.7% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 61.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0368",
+    "summary": "Clinical model evidence favors Hyperthyroidism (60.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 62.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0369",
+    "summary": "Clinical model evidence favors Common_Cold (77.0% confidence). The chest X-ray model predicts 1, with 99.5% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 79.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0370",
+    "summary": "Clinical model evidence favors Common_Cold (46.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 34 clinical entities. The resulting prototype multimodal evidence index is 69.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0371",
+    "summary": "Clinical model evidence favors Asthma (90.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 68.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0372",
+    "summary": "Clinical model evidence favors Asthma (70.3% confidence). The chest X-ray model predicts 1, with 81.4% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 76.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0373",
+    "summary": "Clinical model evidence favors Flu (40.1% confidence). The chest X-ray model predicts 0, with 0.4% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 33.0%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0374",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (95.7% confidence). The chest X-ray model predicts 1, with 90.1% pneumonia probability. The medical-text module extracted 37 clinical entities. The resulting prototype multimodal evidence index is 84.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0375",
+    "summary": "Clinical model evidence favors Asthma (72.3% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 76.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0376",
+    "summary": "Clinical model evidence favors Obesity (45.1% confidence). The chest X-ray model predicts 1, with 70.6% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 46.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0377",
+    "summary": "Clinical model evidence favors Hypertension (31.3% confidence). The chest X-ray model predicts 1, with 96.2% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 53.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0378",
+    "summary": "Clinical model evidence favors Pneumonia (43.6% confidence). The chest X-ray model predicts 0, with 18.2% pneumonia probability. The medical-text module extracted 55 clinical entities. The resulting prototype multimodal evidence index is 49.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0379",
+    "summary": "Clinical model evidence favors Asthma (99.7% confidence). The chest X-ray model predicts 0, with 1.1% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 35.7%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0380",
+    "summary": "Clinical model evidence favors Flu (31.3% confidence). The chest X-ray model predicts 0, with 15.8% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 22.4%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0381",
+    "summary": "Clinical model evidence favors Flu (29.0% confidence). The chest X-ray model predicts 0, with 7.4% pneumonia probability. The medical-text module extracted 34 clinical entities. The resulting prototype multimodal evidence index is 32.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0382",
+    "summary": "Clinical model evidence favors Osteoarthritis (53.8% confidence). The chest X-ray model predicts 1, with 86.7% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 56.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0383",
+    "summary": "Clinical model evidence favors Flu (70.0% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 65.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0384",
+    "summary": "Clinical model evidence favors Gastritis (53.6% confidence). The chest X-ray model predicts 0, with 32.7% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 36.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0385",
+    "summary": "Clinical model evidence favors Type2_Diabetes (32.3% confidence). The chest X-ray model predicts 0, with 1.5% pneumonia probability. The medical-text module extracted 78 clinical entities. The resulting prototype multimodal evidence index is 43.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0386",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (32.1% confidence). The chest X-ray model predicts 0, with 0.8% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 35.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0387",
+    "summary": "Clinical model evidence favors Asthma (93.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 18 clinical entities. The resulting prototype multimodal evidence index is 72.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0388",
+    "summary": "Clinical model evidence favors Obesity (95.5% confidence). The chest X-ray model predicts 0, with 8.1% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 38.8%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0389",
+    "summary": "Clinical model evidence favors Hypothyroidism (67.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 26 clinical entities. The resulting prototype multimodal evidence index is 70.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0390",
+    "summary": "Clinical model evidence favors Asthma (31.4% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 43 clinical entities. The resulting prototype multimodal evidence index is 68.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0391",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (65.4% confidence). The chest X-ray model predicts 1, with 50.6% pneumonia probability. The medical-text module extracted 5 clinical entities. The resulting prototype multimodal evidence index is 39.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0392",
+    "summary": "Clinical model evidence favors Hyperthyroidism (43.7% confidence). The chest X-ray model predicts 1, with 85.7% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 64.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0393",
+    "summary": "Clinical model evidence favors Obesity (24.5% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 49 clinical entities. The resulting prototype multimodal evidence index is 68.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0394",
+    "summary": "Clinical model evidence favors Gastritis (24.2% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 70.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0395",
+    "summary": "Clinical model evidence favors Hyperthyroidism (41.6% confidence). The chest X-ray model predicts 1, with 96.7% pneumonia probability. The medical-text module extracted 40 clinical entities. The resulting prototype multimodal evidence index is 69.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0396",
+    "summary": "Clinical model evidence favors Obesity (72.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 81.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0397",
+    "summary": "Clinical model evidence favors Hypertension (45.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 71.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0398",
+    "summary": "Clinical model evidence favors Asthma (39.0% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 55.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0399",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (94.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 52 clinical entities. The resulting prototype multimodal evidence index is 92.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0400",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (71.7% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 31 clinical entities. The resulting prototype multimodal evidence index is 75.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0401",
+    "summary": "Clinical model evidence favors Osteoarthritis (95.3% confidence). The chest X-ray model predicts 1, with 93.5% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 68.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0402",
+    "summary": "Clinical model evidence favors Type2_Diabetes (83.6% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 9 clinical entities. The resulting prototype multimodal evidence index is 63.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0403",
+    "summary": "Clinical model evidence favors Flu (82.7% confidence). The chest X-ray model predicts 0, with 0.4% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 53.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0404",
+    "summary": "Clinical model evidence favors Pneumonia (23.2% confidence). The chest X-ray model predicts 0, with 6.6% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 19.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0405",
+    "summary": "Clinical model evidence favors Obesity (36.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 68.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0406",
+    "summary": "Clinical model evidence favors Asthma (96.7% confidence). The chest X-ray model predicts 0, with 0.2% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 34.1%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0407",
+    "summary": "Clinical model evidence favors Type2_Diabetes (68.6% confidence). The chest X-ray model predicts 0, with 9.4% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 45.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0408",
+    "summary": "Clinical model evidence favors Obesity (17.4% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 54.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0409",
+    "summary": "Clinical model evidence favors Asthma (35.7% confidence). The chest X-ray model predicts 0, with 7.8% pneumonia probability. The medical-text module extracted 34 clinical entities. The resulting prototype multimodal evidence index is 34.9%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0410",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (81.7% confidence). The chest X-ray model predicts 0, with 11.4% pneumonia probability. The medical-text module extracted 43 clinical entities. The resulting prototype multimodal evidence index is 56.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0411",
+    "summary": "Clinical model evidence favors Osteoarthritis (80.3% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 63.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0412",
+    "summary": "Clinical model evidence favors Hyperthyroidism (62.4% confidence). The chest X-ray model predicts 0, with 0.6% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 46.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0413",
+    "summary": "Clinical model evidence favors Asthma (92.5% confidence). The chest X-ray model predicts 1, with 59.5% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 64.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0414",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (14.7% confidence). The chest X-ray model predicts 1, with 98.2% pneumonia probability. The medical-text module extracted 108 clinical entities. The resulting prototype multimodal evidence index is 70.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0415",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (24.2% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 0 clinical entities. The resulting prototype multimodal evidence index is 41.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0416",
+    "summary": "Clinical model evidence favors COVID19 (89.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 48 clinical entities. The resulting prototype multimodal evidence index is 90.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0417",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (31.4% confidence). The chest X-ray model predicts 1, with 99.3% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 46.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0418",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (77.9% confidence). The chest X-ray model predicts 0, with 12.8% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 58.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0419",
+    "summary": "Clinical model evidence favors Gastritis (83.6% confidence). The chest X-ray model predicts 0, with 0.7% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 34.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0420",
+    "summary": "Clinical model evidence favors Obesity (59.8% confidence). The chest X-ray model predicts 1, with 97.9% pneumonia probability. The medical-text module extracted 17 clinical entities. The resulting prototype multimodal evidence index is 60.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0421",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (54.0% confidence). The chest X-ray model predicts 0, with 1.5% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 46.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0422",
+    "summary": "Clinical model evidence favors Asthma (61.5% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 6 clinical entities. The resulting prototype multimodal evidence index is 54.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0423",
+    "summary": "Clinical model evidence favors Coronary_Artery_Disease (51.5% confidence). The chest X-ray model predicts 1, with 95.2% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 70.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0424",
+    "summary": "Clinical model evidence favors COPD (70.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 76.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0425",
+    "summary": "Clinical model evidence favors Hypothyroidism (63.8% confidence). The chest X-ray model predicts 0, with 0.5% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 37.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0426",
+    "summary": "Clinical model evidence favors Hyperthyroidism (61.3% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 70.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0427",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (30.1% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 54.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0428",
+    "summary": "Clinical model evidence favors Depression (64.6% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 14 clinical entities. The resulting prototype multimodal evidence index is 60.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0429",
+    "summary": "Clinical model evidence favors Hypothyroidism (59.1% confidence). The chest X-ray model predicts 0, with 13.2% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 37.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0430",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (59.1% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 68.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0431",
+    "summary": "Clinical model evidence favors Epilepsy (89.0% confidence). The chest X-ray model predicts 0, with 27.9% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 53.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0432",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (80.5% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 65.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0433",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (83.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 80.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0434",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (23.3% confidence). The chest X-ray model predicts 1, with 91.6% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 55.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0435",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (69.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 70 clinical entities. The resulting prototype multimodal evidence index is 87.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0436",
+    "summary": "Clinical model evidence favors Type2_Diabetes (62.9% confidence). The chest X-ray model predicts 1, with 68.2% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 48.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0437",
+    "summary": "Clinical model evidence favors Asthma (44.3% confidence). The chest X-ray model predicts 0, with 14.5% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 24.2%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0438",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (48.0% confidence). The chest X-ray model predicts 0, with 12.3% pneumonia probability. The medical-text module extracted 12 clinical entities. The resulting prototype multimodal evidence index is 24.5%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0439",
+    "summary": "Clinical model evidence favors Asthma (57.7% confidence). The chest X-ray model predicts 1, with 69.3% pneumonia probability. The medical-text module extracted 36 clinical entities. The resulting prototype multimodal evidence index is 64.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0440",
+    "summary": "Clinical model evidence favors Asthma (27.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 54.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0441",
+    "summary": "Clinical model evidence favors Pneumonia (38.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 63.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0442",
+    "summary": "Clinical model evidence favors Hyperthyroidism (40.9% confidence). The chest X-ray model predicts 1, with 99.3% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 58.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0443",
+    "summary": "Clinical model evidence favors Asthma (25.3% confidence). The chest X-ray model predicts 1, with 95.7% pneumonia probability. The medical-text module extracted 90 clinical entities. The resulting prototype multimodal evidence index is 73.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0444",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (56.0% confidence). The chest X-ray model predicts 0, with 12.6% pneumonia probability. The medical-text module extracted 107 clinical entities. The resulting prototype multimodal evidence index is 55.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0445",
+    "summary": "Clinical model evidence favors Obesity (45.7% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 60.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0446",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (32.8% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 7 clinical entities. The resulting prototype multimodal evidence index is 45.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0447",
+    "summary": "Clinical model evidence favors Pneumonia (60.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 66.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0448",
+    "summary": "Clinical model evidence favors Depression (66.7% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 68.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0449",
+    "summary": "Clinical model evidence favors Hyperthyroidism (61.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 76.2%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0450",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (80.0% confidence). The chest X-ray model predicts 0, with 38.7% pneumonia probability. The medical-text module extracted 20 clinical entities. The resulting prototype multimodal evidence index is 50.0%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0451",
+    "summary": "Clinical model evidence favors Asthma (46.1% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 38 clinical entities. The resulting prototype multimodal evidence index is 71.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0452",
+    "summary": "Clinical model evidence favors Hyperthyroidism (82.2% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 72.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0453",
+    "summary": "Clinical model evidence favors Hypertension (53.6% confidence). The chest X-ray model predicts 1, with 94.7% pneumonia probability. The medical-text module extracted 63 clinical entities. The resulting prototype multimodal evidence index is 79.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0454",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (34.0% confidence). The chest X-ray model predicts 0, with 20.4% pneumonia probability. The medical-text module extracted 26 clinical entities. The resulting prototype multimodal evidence index is 32.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0455",
+    "summary": "Clinical model evidence favors Hypertension (80.8% confidence). The chest X-ray model predicts 0, with 14.4% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 38.7%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0456",
+    "summary": "Clinical model evidence favors Asthma (39.6% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 15 clinical entities. The resulting prototype multimodal evidence index is 53.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0457",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (88.2% confidence). The chest X-ray model predicts 1, with 97.8% pneumonia probability. The medical-text module extracted 55 clinical entities. The resulting prototype multimodal evidence index is 91.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0458",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (24.1% confidence). The chest X-ray model predicts 1, with 98.6% pneumonia probability. The medical-text module extracted 48 clinical entities. The resulting prototype multimodal evidence index is 67.9%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0459",
+    "summary": "Clinical model evidence favors Type2_Diabetes (48.8% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 66 clinical entities. The resulting prototype multimodal evidence index is 80.6%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0460",
+    "summary": "Clinical model evidence favors Asthma (75.5% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 83.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0461",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (61.0% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 17 clinical entities. The resulting prototype multimodal evidence index is 61.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0462",
+    "summary": "Clinical model evidence favors Obesity (76.6% confidence). The chest X-ray model predicts 0, with 11.7% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 46.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0463",
+    "summary": "Clinical model evidence favors Hyperthyroidism (83.2% confidence). The chest X-ray model predicts 1, with 80.8% pneumonia probability. The medical-text module extracted 23 clinical entities. The resulting prototype multimodal evidence index is 66.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0464",
+    "summary": "Clinical model evidence favors Asthma (92.6% confidence). The chest X-ray model predicts 0, with 4.7% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 37.7%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0465",
+    "summary": "Clinical model evidence favors Obesity (32.0% confidence). The chest X-ray model predicts 1, with 83.6% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 59.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0466",
+    "summary": "Clinical model evidence favors Asthma (44.5% confidence). The chest X-ray model predicts 0, with 5.3% pneumonia probability. The medical-text module extracted 2 clinical entities. The resulting prototype multimodal evidence index is 17.1%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0467",
+    "summary": "Clinical model evidence favors Asthma (84.1% confidence). The chest X-ray model predicts 0, with 7.3% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 46.2%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0468",
+    "summary": "Clinical model evidence favors Asthma (42.0% confidence). The chest X-ray model predicts 0, with 34.1% pneumonia probability. The medical-text module extracted 8 clinical entities. The resulting prototype multimodal evidence index is 27.1%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0469",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (97.9% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 10 clinical entities. The resulting prototype multimodal evidence index is 68.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0470",
+    "summary": "Clinical model evidence favors Asthma (97.9% confidence). The chest X-ray model predicts 1, with 100.0% pneumonia probability. The medical-text module extracted 54 clinical entities. The resulting prototype multimodal evidence index is 94.8%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0471",
+    "summary": "Clinical model evidence favors Gastritis (24.5% confidence). The chest X-ray model predicts 1, with 65.6% pneumonia probability. The medical-text module extracted 25 clinical entities. The resulting prototype multimodal evidence index is 44.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0472",
+    "summary": "Clinical model evidence favors Asthma (93.8% confidence). The chest X-ray model predicts 0, with 14.4% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 61.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0473",
+    "summary": "Clinical model evidence favors Hypothyroidism (67.3% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 57 clinical entities. The resulting prototype multimodal evidence index is 85.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0474",
+    "summary": "Clinical model evidence favors Asthma (40.4% confidence). The chest X-ray model predicts 0, with 2.6% pneumonia probability. The medical-text module extracted 32 clinical entities. The resulting prototype multimodal evidence index is 33.6%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0475",
+    "summary": "Clinical model evidence favors Pneumonia (58.1% confidence). The chest X-ray model predicts 1, with 79.8% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 65.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0476",
+    "summary": "Clinical model evidence favors Gastritis (43.5% confidence). The chest X-ray model predicts 1, with 95.5% pneumonia probability. The medical-text module extracted 51 clinical entities. The resulting prototype multimodal evidence index is 74.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0477",
+    "summary": "Clinical model evidence favors Gastritis (78.2% confidence). The chest X-ray model predicts 0, with 26.7% pneumonia probability. The medical-text module extracted 26 clinical entities. The resulting prototype multimodal evidence index is 49.3%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0478",
+    "summary": "Clinical model evidence favors Flu (32.9% confidence). The chest X-ray model predicts 1, with 98.2% pneumonia probability. The medical-text module extracted 24 clinical entities. The resulting prototype multimodal evidence index is 56.6%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0479",
+    "summary": "Clinical model evidence favors Hyperthyroidism (98.3% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 77.7%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0480",
+    "summary": "Clinical model evidence favors Hyperthyroidism (59.2% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 35 clinical entities. The resulting prototype multimodal evidence index is 74.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0481",
+    "summary": "Clinical model evidence favors Osteoarthritis (70.7% confidence). The chest X-ray model predicts 0, with 4.2% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 33.9%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0482",
+    "summary": "Clinical model evidence favors Asthma (42.8% confidence). The chest X-ray model predicts 1, with 54.0% pneumonia probability. The medical-text module extracted 53 clinical entities. The resulting prototype multimodal evidence index is 60.7%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0483",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (30.8% confidence). The chest X-ray model predicts 1, with 98.9% pneumonia probability. The medical-text module extracted 44 clinical entities. The resulting prototype multimodal evidence index is 68.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0484",
+    "summary": "Clinical model evidence favors Obesity (79.1% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 46 clinical entities. The resulting prototype multimodal evidence index is 85.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0485",
+    "summary": "Clinical model evidence favors Osteoarthritis (34.6% confidence). The chest X-ray model predicts 0, with 0.1% pneumonia probability. The medical-text module extracted 45 clinical entities. The resulting prototype multimodal evidence index is 37.7%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0486",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (35.3% confidence). The chest X-ray model predicts 1, with 99.8% pneumonia probability. The medical-text module extracted 28 clinical entities. The resulting prototype multimodal evidence index is 61.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0487",
+    "summary": "Clinical model evidence favors Hyperthyroidism (34.8% confidence). The chest X-ray model predicts 1, with 99.6% pneumonia probability. The medical-text module extracted 69 clinical entities. The resulting prototype multimodal evidence index is 76.1%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0488",
+    "summary": "Clinical model evidence favors Hyperthyroidism (24.9% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 47.1%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0489",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (40.4% confidence). The chest X-ray model predicts 1, with 94.8% pneumonia probability. The medical-text module extracted 16 clinical entities. The resulting prototype multimodal evidence index is 52.4%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0490",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (89.4% confidence). The chest X-ray model predicts 1, with 99.4% pneumonia probability. The medical-text module extracted 52 clinical entities. The resulting prototype multimodal evidence index is 91.0%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0491",
+    "summary": "Clinical model evidence favors Asthma (45.0% confidence). The chest X-ray model predicts 1, with 97.1% pneumonia probability. The medical-text module extracted 57 clinical entities. The resulting prototype multimodal evidence index is 76.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0492",
+    "summary": "Clinical model evidence favors Polycystic_Ovary_Syndrome (86.5% confidence). The chest X-ray model predicts 1, with 99.7% pneumonia probability. The medical-text module extracted 19 clinical entities. The resulting prototype multimodal evidence index is 71.3%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0493",
+    "summary": "Clinical model evidence favors Obesity (37.1% confidence). The chest X-ray model predicts 1, with 74.9% pneumonia probability. The medical-text module extracted 29 clinical entities. The resulting prototype multimodal evidence index is 53.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0494",
+    "summary": "Clinical model evidence favors Gastritis (92.6% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 33 clinical entities. The resulting prototype multimodal evidence index is 83.9%, classified as HIGH."
+  },
+  {
+    "case_id": "SYNTH-0495",
+    "summary": "Clinical model evidence favors Hyperthyroidism (47.5% confidence). The chest X-ray model predicts 1, with 99.9% pneumonia probability. The medical-text module extracted 27 clinical entities. The resulting prototype multimodal evidence index is 63.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0496",
+    "summary": "Clinical model evidence favors Osteoarthritis (47.7% confidence). The chest X-ray model predicts 1, with 98.5% pneumonia probability. The medical-text module extracted 6 clinical entities. The resulting prototype multimodal evidence index is 49.8%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0497",
+    "summary": "Clinical model evidence favors Asthma (58.3% confidence). The chest X-ray model predicts 1, with 86.0% pneumonia probability. The medical-text module extracted 22 clinical entities. The resulting prototype multimodal evidence index is 59.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0498",
+    "summary": "Clinical model evidence favors Irritable_Bowel_Syndrome (81.2% confidence). The chest X-ray model predicts 1, with 99.0% pneumonia probability. The medical-text module extracted 13 clinical entities. The resulting prototype multimodal evidence index is 65.5%, classified as MODERATE."
+  },
+  {
+    "case_id": "SYNTH-0499",
+    "summary": "Clinical model evidence favors Peptic_Ulcer_Disease (38.2% confidence). The chest X-ray model predicts 1, with 68.3% pneumonia probability. The medical-text module extracted 7 clinical entities. The resulting prototype multimodal evidence index is 36.8%, classified as LOW."
+  },
+  {
+    "case_id": "SYNTH-0500",
+    "summary": "Clinical model evidence favors Chronic_Kidney_Disease (53.9% confidence). The chest X-ray model predicts 1, with 99.0% pneumonia probability. The medical-text module extracted 42 clinical entities. The resulting prototype multimodal evidence index is 75.8%, classified as HIGH."
+  }
+]

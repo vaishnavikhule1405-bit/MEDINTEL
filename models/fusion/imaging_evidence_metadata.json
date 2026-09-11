@@ -1,0 +1,23 @@
+{
+  "model": "Custom CNN",
+  "input_size": 224,
+  "classes": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "features": [
+    "normal_probability",
+    "pneumonia_probability",
+    "confidence"
+  ],
+  "feature_dimension": 3,
+  "test_images": 624,
+  "performance": {
+    "accuracy": 0.844551282051282,
+    "precision": 0.8058455114822547,
+    "recall": 0.9897435897435898,
+    "f1": 0.8883774453394706,
+    "roc_auc": 0.9324895901818978
+  },
+  "note": "These probabilities represent model outputs from the trained chest X-ray classifier and are not clinically validated diagnostic probabilities."
+}

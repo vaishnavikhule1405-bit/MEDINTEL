@@ -1,0 +1,9 @@
+{
+  "processed_records": 4200,
+  "total_records": 4966,
+  "successful_records": 4200,
+  "error_records": 0,
+  "total_entities": 136838,
+  "elapsed_seconds": 6770.0855095386505,
+  "last_record_index": 4199
+}

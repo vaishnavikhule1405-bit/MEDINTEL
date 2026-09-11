@@ -1,0 +1,3084 @@
+[
+  {
+    "record_index": 393,
+    "medical_specialty": " Surgery",
+    "sample_name": " Punch Biopsy - 2 ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Worrisome skin lesion, left hand., POSTPROCEDURE DIAGNOSIS:, Worrisome skin lesion, left hand., PROCEDURE:, The patient gave informed consent for his procedure. After informed consent was obtained, attention was turned toward the area of interest, which was prepped and draped in the usual sterile fashion., Local anesthetic medication was infiltrated around and into the area of interest. There was an obvious skin lesion there and this gentleman has a history of squamous c",
+    "total_entities": 4,
+    "top_entities": [
+      {
+        "entity": "sterile dressing",
+        "category": "UNKNOWN",
+        "confidence": 0.997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "biopsy",
+        "category": "UNKNOWN",
+        "confidence": 0.9946,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "skin",
+        "category": "UNKNOWN",
+        "confidence": 0.9928,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "medication",
+        "category": "UNKNOWN",
+        "confidence": 0.9734,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 4
+    },
+    "context_summary": {
+      "PRESENT": 4
+    },
+    "similar_reports": [
+      {
+        "record_index": 3974,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " Dermatology",
+        "sample_name": " Punch Biopsy - 2 "
+      },
+      {
+        "record_index": 807,
+        "similarity": 0.9600324034690857,
+        "medical_specialty": " Surgery",
+        "sample_name": " Excision of Squamous Cell Carcinoma "
+      },
+      {
+        "record_index": 3141,
+        "similarity": 0.9600323438644409,
+        "medical_specialty": " Hematology - Oncology",
+        "sample_name": " Excision of Squamous Cell Carcinoma "
+      },
+      {
+        "record_index": 3967,
+        "similarity": 0.9556636810302734,
+        "medical_specialty": " Dermatology",
+        "sample_name": " Punch Biopsy - 1 "
+      },
+      {
+        "record_index": 397,
+        "similarity": 0.9556636810302734,
+        "medical_specialty": " Surgery",
+        "sample_name": " Punch Biopsy - 1 "
+      }
+    ]
+  },
+  {
+    "record_index": 485,
+    "medical_specialty": " Surgery",
+    "sample_name": " ORIF - Malleolus ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Left lateral malleolus fracture., POSTOPERATIVE DIAGNOSIS:, Left lateral malleolus fracture., PROCEDURE PERFORMED:, Open reduction and internal fixation of left lateral malleolus., ANESTHESIA:, General., TOURNIQUET TIME:, 59 minutes., COMPLICATIONS:, None., BLOOD LOSS:, Negligible., CLOSURE:, 2-0 Vicryl and staples., INDICATIONS FOR SURGERY:, This is a young gentleman with soccer injury to his left ankle and an x-ray showed displaced lateral malleolus fracture with widen",
+    "total_entities": 22,
+    "top_entities": [
+      {
+        "entity": "left ankle",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "taken",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "sterile dressing",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "fracture",
+        "category": "UNKNOWN",
+        "confidence": 0.9985,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right ankle",
+        "category": "UNKNOWN",
+        "confidence": 0.9907,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "x - ray",
+        "category": "UNKNOWN",
+        "confidence": 0.9904,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "lateral",
+        "category": "UNKNOWN",
+        "confidence": 0.9863,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "cortical screw",
+        "category": "UNKNOWN",
+        "confidence": 0.9801,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stable",
+        "category": "UNKNOWN",
+        "confidence": 0.9547,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "325 mm",
+        "category": "UNKNOWN",
+        "confidence": 0.9489,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 22
+    },
+    "context_summary": {
+      "PRESENT": 22
+    },
+    "similar_reports": [
+      {
+        "record_index": 2089,
+        "similarity": 0.9999998807907104,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " ORIF - Malleolus "
+      },
+      {
+        "record_index": 2251,
+        "similarity": 0.975436270236969,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Closed ORIF - Ankle "
+      },
+      {
+        "record_index": 1005,
+        "similarity": 0.975436270236969,
+        "medical_specialty": " Surgery",
+        "sample_name": " Closed ORIF - Ankle "
+      },
+      {
+        "record_index": 2201,
+        "similarity": 0.9703330397605896,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Hardware Removal - Metatarsal "
+      },
+      {
+        "record_index": 748,
+        "similarity": 0.9703330397605896,
+        "medical_specialty": " Surgery",
+        "sample_name": " Hardware Removal - Metatarsal "
+      }
+    ]
+  },
+  {
+    "record_index": 538,
+    "medical_specialty": " Surgery",
+    "sample_name": " Mini Laparotomy & Radical Retropubic Prostatectomy ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Adenocarcinoma of the prostate., POSTOPERATIVE DIAGNOSIS:, Adenocarcinoma of the prostate., TITLE OF OPERATION:, Mini-laparotomy radical retropubic prostatectomy with bilateral pelvic lymph node dissection with Cavermap., ANESTHESIA:, General by intubation., Informed consent was obtained for the procedure. The patient understands the treatment options and wishes to proceed. He accepts the risks to include bleeding requiring transfusion, infection, sepsis, incontinence, i",
+    "total_entities": 39,
+    "top_entities": [
+      {
+        "entity": "muscle",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "prostate",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "bladder",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "prostate",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "pelvis",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "pelvic",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "steri - strips",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "cooper ' s ligament",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right lower quadrant",
+        "category": "UNKNOWN",
+        "confidence": 0.9986,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "taken",
+        "category": "UNKNOWN",
+        "confidence": 0.9984,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 39
+    },
+    "context_summary": {
+      "PRESENT": 39
+    },
+    "similar_reports": [
+      {
+        "record_index": 83,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " Urology",
+        "sample_name": " Mini Laparotomy & Radical Retropubic Prostatectomy "
+      },
+      {
+        "record_index": 50,
+        "similarity": 0.9858505129814148,
+        "medical_specialty": " Urology",
+        "sample_name": " Prostatectomy - Radical Retropubic "
+      },
+      {
+        "record_index": 402,
+        "similarity": 0.9858505129814148,
+        "medical_specialty": " Surgery",
+        "sample_name": " Prostatectomy - Radical Retropubic "
+      },
+      {
+        "record_index": 401,
+        "similarity": 0.9827327132225037,
+        "medical_specialty": " Surgery",
+        "sample_name": " Prostatectomy - Nerve Sparing "
+      },
+      {
+        "record_index": 51,
+        "similarity": 0.9827327132225037,
+        "medical_specialty": " Urology",
+        "sample_name": " Prostatectomy - Nerve Sparing "
+      }
+    ]
+  },
+  {
+    "record_index": 724,
+    "medical_specialty": " Surgery",
+    "sample_name": " Hemicraniectomy ",
+    "text_preview": "TITLE OF OPERATION:, Left-sided large hemicraniectomy for traumatic brain injury and increased intracranial pressure., INDICATION FOR SURGERY:, The patient is a patient well known to my service. She came in with severe traumatic brain injury and severe multiple fractures of the right side of the skull. I took her to the operating a few days ago for a large right-sided hemicraniectomy to save her life. I spoke with the family, the mom, especially about the risks, benefits, and alternatives of thi",
+    "total_entities": 40,
+    "top_entities": [
+      {
+        "entity": "swelling",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "fractures",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "anterior to the ear",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "HISTORICAL",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "HISTORICAL",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "brain",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "severe",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "ct",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "very",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "headholder",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "superior sagittal suture",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "vertex of the skull",
+        "category": "UNKNOWN",
+        "confidence": 0.9988,
+        "status": "HISTORICAL",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "HISTORICAL",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 40
+    },
+    "context_summary": {
+      "PRESENT": 37,
+      "HISTORICAL": 3
+    },
+    "similar_reports": [
+      {
+        "record_index": 2675,
+        "similarity": 0.9999998807907104,
+        "medical_specialty": " Neurosurgery",
+        "sample_name": " Hemicraniectomy "
+      },
+      {
+        "record_index": 953,
+        "similarity": 0.9622529745101929,
+        "medical_specialty": " Surgery",
+        "sample_name": " Craniotomy "
+      },
+      {
+        "record_index": 2699,
+        "similarity": 0.9622529745101929,
+        "medical_specialty": " Neurosurgery",
+        "sample_name": " Craniotomy "
+      },
+      {
+        "record_index": 946,
+        "similarity": 0.9615486860275269,
+        "medical_specialty": " Surgery",
+        "sample_name": " Craniotomy - Frontotemporal - 1 "
+      },
+      {
+        "record_index": 2912,
+        "similarity": 0.9615486860275269,
+        "medical_specialty": " Neurology",
+        "sample_name": " Craniotomy - Frontotemporal - 1 "
+      }
+    ]
+  },
+  {
+    "record_index": 751,
+    "medical_specialty": " Surgery",
+    "sample_name": " Hallux Infected Bone Resection ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Osteomyelitis, left hallux., POSTOPERATIVE DIAGNOSIS:, Osteomyelitis, left hallux., PROCEDURES PERFORMED:, Resection of infected bone, left hallux, proximal phalanx, and distal phalanx., ANESTHESIA:, TIVA/Local., HISTORY:, This 77-year-old male presents to ABCD preoperative holding area after keeping himself NPO since mid night for surgery on his infected left hallux. The patient has a history of chronic osteomyelitis and non-healing ulceration to the left hallux of almo",
+    "total_entities": 56,
+    "top_entities": [
+      {
+        "entity": "distal phalanx",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stable",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "transported",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "medial and plantar aspect",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "cultures",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "forefoot",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "10 years",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "HISTORICAL",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "HISTORICAL",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "heavy",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "phalanx",
+        "category": "UNKNOWN",
+        "confidence": 0.999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "left hallux",
+        "category": "UNKNOWN",
+        "confidence": 0.9987,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 56
+    },
+    "context_summary": {
+      "PRESENT": 49,
+      "HISTORICAL": 7
+    },
+    "similar_reports": [
+      {
+        "record_index": 2207,
+        "similarity": 0.9999999403953552,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Hallux Infected Bone Resection "
+      },
+      {
+        "record_index": 1819,
+        "similarity": 0.9999999403953552,
+        "medical_specialty": " Podiatry",
+        "sample_name": " Hallux Infected Bone Resection "
+      },
+      {
+        "record_index": 2053,
+        "similarity": 0.98627769947052,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Phalanx Amputation "
+      },
+      {
+        "record_index": 1806,
+        "similarity": 0.98627769947052,
+        "medical_specialty": " Podiatry",
+        "sample_name": " Phalanx Amputation "
+      },
+      {
+        "record_index": 435,
+        "similarity": 0.98627769947052,
+        "medical_specialty": " Surgery",
+        "sample_name": " Phalanx Amputation "
+      }
+    ]
+  },
+  {
+    "record_index": 1061,
+    "medical_specialty": " Surgery",
+    "sample_name": " Carpal Tunnel Release - Endoscopic ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Carpal tunnel syndrome., POSTOPERATIVE DIAGNOSIS:, Carpal tunnel syndrome., TITLE OF PROCEDURE:, Endoscopic carpal tunnel release., ANESTHESIA:, MAC, PROCEDURE:, After administering appropriate antibiotics and MAC anesthesia, the upper extremity was prepped and draped in the usual standard fashion, the arm was exsanguinated with Esmarch, and the tourniquet inflated to 250 mmHg., I made a transverse incision one fingerbreadth proximal to the distal volar wrist crease. Dis",
+    "total_entities": 20,
+    "top_entities": [
+      {
+        "entity": "upper extremity",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "transverse carpal ligament",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "extra bursal space",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "electrocautery",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "transverse carp",
+        "category": "UNKNOWN",
+        "confidence": 0.9944,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "antibiotics",
+        "category": "UNKNOWN",
+        "confidence": 0.9923,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "250 mm",
+        "category": "UNKNOWN",
+        "confidence": 0.9898,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "transverse carpal",
+        "category": "UNKNOWN",
+        "confidence": 0.964,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "transverse incision",
+        "category": "UNKNOWN",
+        "confidence": 0.9605,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "tourniquet",
+        "category": "UNKNOWN",
+        "confidence": 0.9566,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 20
+    },
+    "context_summary": {
+      "PRESENT": 20
+    },
+    "similar_reports": [
+      {
+        "record_index": 2258,
+        "similarity": 1.0,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Carpal Tunnel Release - Endoscopic "
+      },
+      {
+        "record_index": 2212,
+        "similarity": 0.9898267388343811,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Endoscopic Carpal Tunnel Rlease "
+      },
+      {
+        "record_index": 850,
+        "similarity": 0.9898267388343811,
+        "medical_specialty": " Surgery",
+        "sample_name": " Endoscopic Carpal Tunnel Rlease "
+      },
+      {
+        "record_index": 1065,
+        "similarity": 0.9896901249885559,
+        "medical_specialty": " Surgery",
+        "sample_name": " Carpal Tunnel Release - 2 "
+      },
+      {
+        "record_index": 2268,
+        "similarity": 0.9896901249885559,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Carpal Tunnel Release - 2 "
+      }
+    ]
+  },
+  {
+    "record_index": 1344,
+    "medical_specialty": " SOAP / Chart / Progress Notes",
+    "sample_name": " Lobectomy - Followup ",
+    "text_preview": "HISTORY OF PRESENT ILLNESS:, The patient is a 65-year-old female who underwent left upper lobectomy for stage IA non-small cell lung cancer. She returns for a routine surveillance visit., She has undergone since her last visit an abdominopelvic CT, which shows an enlarging simple cyst of the left kidney. She underwent barium swallow, which demonstrates a small sliding hiatal hernia with minimal reflux. She has a minimal delayed emptying secondary tertiary contractions. PA and lateral chest x-ray",
+    "total_entities": 30,
+    "top_entities": [
+      {
+        "entity": "chest",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "left calf",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "HISTORICAL",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "HISTORICAL",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "cervical",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "left lower extremity",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "ultrasound",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "10 mg",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "lung",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "contraction",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "65 - year - old",
+        "category": "UNKNOWN",
+        "confidence": 0.9981,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "lesions",
+        "category": "UNKNOWN",
+        "confidence": 0.9977,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 30
+    },
+    "context_summary": {
+      "PRESENT": 25,
+      "HISTORICAL": 5
+    },
+    "similar_reports": [
+      {
+        "record_index": 4721,
+        "similarity": 1.0,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Lobectomy - Followup "
+      },
+      {
+        "record_index": 4280,
+        "similarity": 0.968582272529602,
+        "medical_specialty": " Consult - History and Phy.",
+        "sample_name": " Ischemic Cecum - Consult "
+      },
+      {
+        "record_index": 3494,
+        "similarity": 0.968582272529602,
+        "medical_specialty": " Gastroenterology",
+        "sample_name": " Ischemic Cecum - Consult "
+      },
+      {
+        "record_index": 2472,
+        "similarity": 0.9683327674865723,
+        "medical_specialty": " Office Notes",
+        "sample_name": " Nephrology Office Visit - 1 "
+      },
+      {
+        "record_index": 2964,
+        "similarity": 0.9683327674865723,
+        "medical_specialty": " Nephrology",
+        "sample_name": " Nephrology Office Visit - 1 "
+      }
+    ]
+  },
+  {
+    "record_index": 1499,
+    "medical_specialty": " Radiology",
+    "sample_name": " Transesophageal Echocardiogram - 3 ",
+    "text_preview": "REASON FOR EXAM:, Aortic valve replacement. Assessment of stenotic valve. Evaluation for thrombus on the valve., PREOPERATIVE DIAGNOSIS:, Atrial valve replacement., POSTOPERATIVE DIAGNOSES:, Moderate stenosis of aortic valve replacement. Mild mitral regurgitation. Normal left ventricular function., PROCEDURES IN DETAIL:, The procedure was explained to the patient with risks and benefits. The patient agreed and signed the consent form. The patient received a total of 3 mg of Versed and 50 mcg of ",
+    "total_entities": 42,
+    "top_entities": [
+      {
+        "entity": "masses",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "normal",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right atrium",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "3. 2 m / sec",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "atrial",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "moderate",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "mild",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "oropharynx",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "mid esophageal",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "saline contrast",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 42
+    },
+    "context_summary": {
+      "PRESENT": 42
+    },
+    "similar_reports": [
+      {
+        "record_index": 4589,
+        "similarity": 1.0,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Transesophageal Echocardiogram - 3 "
+      },
+      {
+        "record_index": 1495,
+        "similarity": 0.9791002869606018,
+        "medical_specialty": " Radiology",
+        "sample_name": " Transesophageal Echocardiogram - 1 "
+      },
+      {
+        "record_index": 4601,
+        "similarity": 0.9791002869606018,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Transesophageal Echocardiogram - 1 "
+      },
+      {
+        "record_index": 4593,
+        "similarity": 0.9768644571304321,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Transesophageal Echocardiogram - 2 "
+      },
+      {
+        "record_index": 1500,
+        "similarity": 0.9768644571304321,
+        "medical_specialty": " Radiology",
+        "sample_name": " Transesophageal Echocardiogram - 2 "
+      }
+    ]
+  },
+  {
+    "record_index": 1894,
+    "medical_specialty": " Pediatrics - Neonatal",
+    "sample_name": " Normal Newborn Infant Physical Exam ",
+    "text_preview": "GENERAL:, A well-developed infant in no acute respiratory distress., VITAL SIGNS:, Initial temperature was XX, pulse XX, respirations XX. Weight XX grams, length XX cm, head circumference XX cm., HEENT:, Head is normocephalic with anterior fontanelle open, soft, and non-bulging. Eyes: Red reflex elicited bilaterally. TMs occluded with vernix and not well visualized. Nose and throat are patent without palatal defect., NECK:, Supple without clavicular fracture., LUNGS:, Clear to auscultation., HEA",
+    "total_entities": 22,
+    "top_entities": [
+      {
+        "entity": "masses",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "weight",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "head",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "pulses",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "2 / 4",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "vital signs",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "respiratory",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "nose",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "pulse",
+        "category": "UNKNOWN",
+        "confidence": 0.999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "initial",
+        "category": "UNKNOWN",
+        "confidence": 0.9986,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 22
+    },
+    "context_summary": {
+      "PRESENT": 22
+    },
+    "similar_reports": [
+      {
+        "record_index": 3220,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " General Medicine",
+        "sample_name": " Normal Newborn Infant Physical Exam "
+      },
+      {
+        "record_index": 4198,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " Consult - History and Phy.",
+        "sample_name": " Normal Newborn Infant Physical Exam "
+      },
+      {
+        "record_index": 2455,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " Office Notes",
+        "sample_name": " Normal Newborn Infant Physical Exam "
+      },
+      {
+        "record_index": 4210,
+        "similarity": 0.9793696403503418,
+        "medical_specialty": " Consult - History and Phy.",
+        "sample_name": " Normal Child Exam Template "
+      },
+      {
+        "record_index": 2467,
+        "similarity": 0.9793696403503418,
+        "medical_specialty": " Office Notes",
+        "sample_name": " Normal Child Exam Template "
+      }
+    ]
+  },
+  {
+    "record_index": 1964,
+    "medical_specialty": " Pain Management",
+    "sample_name": " Intercostal block - 1 ",
+    "text_preview": "PREPROCEDURE DIAGNOSIS:, Chest pain secondary to fractured ribs, unmanageable with narcotics., POSTPROCEDURE DIAGNOSIS:, Chest pain secondary to fractured ribs, unmanageable with narcotics., PROCEDURE:, Intercostal block from fourth to tenth intercostal spaces, left., INDICATIONS:, I was requested by Dr. X to do an intercostal block on this lady who fell and has fractured ribs, whose chest pain is paralyzing and not responding well to increasing doses of narcotics., PROCEDURE DETAIL:, After obta",
+    "total_entities": 18,
+    "top_entities": [
+      {
+        "entity": "pain",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "chest",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "20 ml",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "block",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "left lumbar",
+        "category": "UNKNOWN",
+        "confidence": 0.9992,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "intercostal spaces",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "marcaine",
+        "category": "UNKNOWN",
+        "confidence": 0.9988,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "1 %",
+        "category": "UNKNOWN",
+        "confidence": 0.9986,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "30 ml",
+        "category": "UNKNOWN",
+        "confidence": 0.9953,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "0. 25 %",
+        "category": "UNKNOWN",
+        "confidence": 0.9943,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 18
+    },
+    "context_summary": {
+      "PRESENT": 18
+    },
+    "similar_reports": [
+      {
+        "record_index": 1970,
+        "similarity": 0.9705893993377686,
+        "medical_specialty": " Pain Management",
+        "sample_name": " Intercostal Block "
+      },
+      {
+        "record_index": 845,
+        "similarity": 0.9579270482063293,
+        "medical_specialty": " Surgery",
+        "sample_name": " Epidurogram "
+      },
+      {
+        "record_index": 1974,
+        "similarity": 0.9579270482063293,
+        "medical_specialty": " Pain Management",
+        "sample_name": " Epidurogram "
+      },
+      {
+        "record_index": 1031,
+        "similarity": 0.957240104675293,
+        "medical_specialty": " Surgery",
+        "sample_name": " Chest Tube Placement "
+      },
+      {
+        "record_index": 4833,
+        "similarity": 0.957240104675293,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Chest Tube Placement "
+      }
+    ]
+  },
+  {
+    "record_index": 2021,
+    "medical_specialty": " Orthopedic",
+    "sample_name": " Tarsectomy ",
+    "text_preview": "PREOPERATIVE DIAGNOSES:, 1. Painful enlarged navicula, right foot., 2. Osteochondroma of right fifth metatarsal., POSTOPERATIVE DIAGNOSES:, 1. Painful enlarged navicula, right foot., 2. Osteochondroma of right fifth metatarsal., PROCEDURE PERFORMED:, 1. Partial tarsectomy navicula, right foot., 2. Partial metatarsectomy, right foot., HISTORY:, This 41-year-old Caucasian female who presents to ABCD General Hospital with the above chief complaint. The patient states that she has extreme pain over ",
+    "total_entities": 49,
+    "top_entities": [
+      {
+        "entity": "pain",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stable",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "radio",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "steri - strips",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "presents",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "enlarged",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "bony prominence",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "incision",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "7 cm",
+        "category": "UNKNOWN",
+        "confidence": 0.9988,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "caucasian",
+        "category": "UNKNOWN",
+        "confidence": 0.9986,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 49
+    },
+    "context_summary": {
+      "PRESENT": 47,
+      "HISTORICAL": 2
+    },
+    "similar_reports": [
+      {
+        "record_index": 294,
+        "similarity": 1.0,
+        "medical_specialty": " Surgery",
+        "sample_name": " Tarsectomy "
+      },
+      {
+        "record_index": 1792,
+        "similarity": 1.0,
+        "medical_specialty": " Podiatry",
+        "sample_name": " Tarsectomy "
+      },
+      {
+        "record_index": 2066,
+        "similarity": 0.97681725025177,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Osteotomy & Bunionectomy - 1 "
+      },
+      {
+        "record_index": 474,
+        "similarity": 0.97681725025177,
+        "medical_specialty": " Surgery",
+        "sample_name": " Osteotomy & Bunionectomy - 1 "
+      },
+      {
+        "record_index": 1994,
+        "similarity": 0.974327802658081,
+        "medical_specialty": " Orthopedic",
+        "sample_name": " Youngswick Bunionectomy "
+      }
+    ]
+  },
+  {
+    "record_index": 2518,
+    "medical_specialty": " Obstetrics / Gynecology",
+    "sample_name": " Salpingooophorectomy - Laparoscopic ",
+    "text_preview": "PREOPERATIVE DIAGNOSES:, 1. Right pelvic pain., 2. Right ovarian mass., POSTOPERATIVE DIAGNOSES:, 1. Right pelvic pain., 2. Right ovarian mass., 3. 8 cm x 10 cm right ovarian cyst with ovarian torsion., PROCEDURE PERFORMED:, Laparoscopic right salpingooophorectomy., ANESTHESIA:, General with endotracheal tube., COMPLICATIONS:, None., ESTIMATED BLOOD LOSS:, Less than 50 cc., TUBES:, None., DRAINS:, None., PATHOLOGY:, The right tube and ovary sent to pathology for review., FINDINGS:, On exam under",
+    "total_entities": 59,
+    "top_entities": [
+      {
+        "entity": "pain",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "fever",
+        "category": "UNKNOWN",
+        "confidence": 1.0,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "normal",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "positive",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "nausea",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "ultrasound",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "needle counts",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "correct",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "taken",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "bilateral",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 59
+    },
+    "context_summary": {
+      "PRESENT": 59
+    },
+    "similar_reports": [
+      {
+        "record_index": 364,
+        "similarity": 1.0,
+        "medical_specialty": " Surgery",
+        "sample_name": " Salpingooophorectomy - Laparoscopic "
+      },
+      {
+        "record_index": 801,
+        "similarity": 0.9797035455703735,
+        "medical_specialty": " Surgery",
+        "sample_name": " Exploratory Laparotomy - 2 "
+      },
+      {
+        "record_index": 2593,
+        "similarity": 0.9797035455703735,
+        "medical_specialty": " Obstetrics / Gynecology",
+        "sample_name": " Exploratory Laparotomy - 2 "
+      },
+      {
+        "record_index": 2607,
+        "similarity": 0.9777657389640808,
+        "medical_specialty": " Obstetrics / Gynecology",
+        "sample_name": " D&C & Laparoscopy - 2 "
+      },
+      {
+        "record_index": 918,
+        "similarity": 0.9777657389640808,
+        "medical_specialty": " Surgery",
+        "sample_name": " D&C & Laparoscopy - 2 "
+      }
+    ]
+  },
+  {
+    "record_index": 2960,
+    "medical_specialty": " Nephrology",
+    "sample_name": " Renal Transplant - Cadaveric ",
+    "text_preview": "HISTORY OF PRESENT ILLNESS:, The patient is a 50-year-old African American female with past medical history significant for hypertension and endstage renal disease, on hemodialysis secondary to endstage renal disease, last hemodialysis was on June 22, 2007. The patient presents with no complaints for cadaveric renal transplant. After appropriate cross match and workup of HLA typing of both recipient and cadaveric kidneys, the patient was deemed appropriate for operative intervention and transpla",
+    "total_entities": 57,
+    "top_entities": [
+      {
+        "entity": "electrocautery",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "hemostats",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stitches",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "rolling",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "retroperitoneum",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "peritoneum",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "renal",
+        "category": "UNKNOWN",
+        "confidence": 0.9989,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "trans",
+        "category": "UNKNOWN",
+        "confidence": 0.9988,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "mass",
+        "category": "UNKNOWN",
+        "confidence": 0.9987,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right iliac",
+        "category": "UNKNOWN",
+        "confidence": 0.9986,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 57
+    },
+    "context_summary": {
+      "PRESENT": 56,
+      "HISTORICAL": 1
+    },
+    "similar_reports": [
+      {
+        "record_index": 376,
+        "similarity": 1.000000238418579,
+        "medical_specialty": " Surgery",
+        "sample_name": " Renal Transplant - Cadaveric "
+      },
+      {
+        "record_index": 3898,
+        "similarity": 0.9729570150375366,
+        "medical_specialty": " Discharge Summary",
+        "sample_name": " ESRD - Discharge Summary "
+      },
+      {
+        "record_index": 2989,
+        "similarity": 0.9729570150375366,
+        "medical_specialty": " Nephrology",
+        "sample_name": " ESRD - Discharge Summary "
+      },
+      {
+        "record_index": 2971,
+        "similarity": 0.9671794176101685,
+        "medical_specialty": " Nephrology",
+        "sample_name": " Nephrectomy - Transplant "
+      },
+      {
+        "record_index": 508,
+        "similarity": 0.9671794176101685,
+        "medical_specialty": " Surgery",
+        "sample_name": " Nephrectomy - Transplant "
+      }
+    ]
+  },
+  {
+    "record_index": 2984,
+    "medical_specialty": " Nephrology",
+    "sample_name": " Hemodialysis Fistula Construction ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, End-stage renal disease with failing AV dialysis fistula., POSTOPERATIVE DIAGNOSIS:, End-stage renal disease with failing AV dialysis fistula., PROCEDURE:, Construction of right upper arm hemodialysis fistula with transposition of deep brachial vein., ANESTHESIA:, Endotracheal., DESCRIPTION OF OPERATIVE PROCEDURE:, General endotracheal anesthesia was initiated without difficulty. The right arm, axilla, and chest wall were prepped and draped in sterile fashion. Longitudin",
+    "total_entities": 24,
+    "top_entities": [
+      {
+        "entity": "skin",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "chest",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stab incision",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "sterile dressing",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "blood loss",
+        "category": "UNKNOWN",
+        "confidence": 0.9974,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "draining",
+        "category": "UNKNOWN",
+        "confidence": 0.9971,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "8 mm",
+        "category": "UNKNOWN",
+        "confidence": 0.9971,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "liga",
+        "category": "UNKNOWN",
+        "confidence": 0.9961,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "basilic",
+        "category": "UNKNOWN",
+        "confidence": 0.9932,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "vicryl",
+        "category": "UNKNOWN",
+        "confidence": 0.9913,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 24
+    },
+    "context_summary": {
+      "PRESENT": 24
+    },
+    "similar_reports": [
+      {
+        "record_index": 723,
+        "similarity": 0.9999997019767761,
+        "medical_specialty": " Surgery",
+        "sample_name": " Hemodialysis Fistula Construction "
+      },
+      {
+        "record_index": 3029,
+        "similarity": 0.9799389839172363,
+        "medical_specialty": " Nephrology",
+        "sample_name": " Basilic Vein Transposition "
+      },
+      {
+        "record_index": 1172,
+        "similarity": 0.9799389839172363,
+        "medical_specialty": " Surgery",
+        "sample_name": " Basilic Vein Transposition "
+      },
+      {
+        "record_index": 1179,
+        "similarity": 0.9724486470222473,
+        "medical_specialty": " Surgery",
+        "sample_name": " AV Fistula - 1 "
+      },
+      {
+        "record_index": 3032,
+        "similarity": 0.9724486470222473,
+        "medical_specialty": " Nephrology",
+        "sample_name": " AV Fistula - 1 "
+      }
+    ]
+  },
+  {
+    "record_index": 3113,
+    "medical_specialty": " Hematology - Oncology",
+    "sample_name": " MGUS Followup ",
+    "text_preview": "CHIEF COMPLAINT:, MGUS., HISTORY OF PRESENT ILLNESS:, This is an extremely pleasant 86-year-old gentleman, who I follow for his MGUS. I initially saw him for thrombocytopenia when his ANC was 1300. A bone marrow biopsy was obtained. Interestingly enough, at the time of his bone marrow biopsy, his hemoglobin was 13.0 and his white blood cell count was 6.5 with a platelet count of 484, 000. His bone marrow biopsy showed a normal cellular bone marrow; however, there were 10% plasma cells and we pro",
+    "total_entities": 22,
+    "top_entities": [
+      {
+        "entity": "13. 0",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "6. 5",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "biopsy",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "normal",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "tests",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "energy level",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "hemoglobin",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "white blood cell count",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "ecog performance",
+        "category": "UNKNOWN",
+        "confidence": 0.9974,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "nausea",
+        "category": "UNKNOWN",
+        "confidence": 0.9945,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 22
+    },
+    "context_summary": {
+      "PRESENT": 21,
+      "HISTORICAL": 1
+    },
+    "similar_reports": [
+      {
+        "record_index": 1328,
+        "similarity": 1.0,
+        "medical_specialty": " SOAP / Chart / Progress Notes",
+        "sample_name": " MGUS Followup "
+      },
+      {
+        "record_index": 4769,
+        "similarity": 0.9640291333198547,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Exercise Stress Test - 2 "
+      },
+      {
+        "record_index": 4672,
+        "similarity": 0.9640123844146729,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Paroxysmal Atrial Fibrillation "
+      },
+      {
+        "record_index": 4157,
+        "similarity": 0.9640123844146729,
+        "medical_specialty": " Consult - History and Phy.",
+        "sample_name": " Paroxysmal Atrial Fibrillation "
+      },
+      {
+        "record_index": 4739,
+        "similarity": 0.9631962776184082,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " High PT-INR - ER Visit "
+      }
+    ]
+  },
+  {
+    "record_index": 3138,
+    "medical_specialty": " Hematology - Oncology",
+    "sample_name": " Hematology Consult - 1 ",
+    "text_preview": "HISTORY OF PRESENT ILLNESS:, The patient is well known to me for a history of iron-deficiency anemia due to chronic blood loss from colitis. We corrected her hematocrit last year with intravenous (IV) iron. Ultimately, she had a total proctocolectomy done on 03/14/2007 to treat her colitis. Her course has been very complicated since then with needing multiple surgeries for removal of hematoma. This is partly because she was on anticoagulation for a right arm deep venous thrombosis (DVT) she had ",
+    "total_entities": 51,
+    "top_entities": [
+      {
+        "entity": "antibiotics",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "elevated",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stable",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "high",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right arm",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "normal",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "other electrolytes",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "bleeding",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "platelets",
+        "category": "UNKNOWN",
+        "confidence": 0.9996,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "b12",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 51
+    },
+    "context_summary": {
+      "PRESENT": 50,
+      "HISTORICAL": 1
+    },
+    "similar_reports": [
+      {
+        "record_index": 4302,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " Consult - History and Phy.",
+        "sample_name": " Hematology Consult - 1 "
+      },
+      {
+        "record_index": 3829,
+        "similarity": 0.9618907570838928,
+        "medical_specialty": " Emergency Room Reports",
+        "sample_name": " Blood per Rectum "
+      },
+      {
+        "record_index": 3634,
+        "similarity": 0.9618907570838928,
+        "medical_specialty": " Gastroenterology",
+        "sample_name": " Blood per Rectum "
+      },
+      {
+        "record_index": 3804,
+        "similarity": 0.9615514874458313,
+        "medical_specialty": " Emergency Room Reports",
+        "sample_name": " High PT-INR - ER Visit "
+      },
+      {
+        "record_index": 4739,
+        "similarity": 0.9615514874458313,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " High PT-INR - ER Visit "
+      }
+    ]
+  },
+  {
+    "record_index": 3199,
+    "medical_specialty": " General Medicine",
+    "sample_name": " Pneumoconiosis ",
+    "text_preview": "HISTORY OF PRESENT ILLNESS:, This is a 91-year-old male with a previous history of working in the coalmine and significant exposure to silica with resultant pneumoconiosis and fibrosis of the lung. The patient also has a positive history of smoking in the past. At the present time, he is admitted for continued, management of respiratory depression with other medical complications. The patient was treated for multiple problems at Jefferson Hospital prior to coming here including abdominal discomf",
+    "total_entities": 38,
+    "top_entities": [
+      {
+        "entity": "discomfort",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "HISTORICAL",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "HISTORICAL",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "upper extremities",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "skin",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "hands",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "forearm",
+        "category": "UNKNOWN",
+        "confidence": 0.9999,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "tears",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "skin",
+        "category": "UNKNOWN",
+        "confidence": 0.9997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "hydro",
+        "category": "UNKNOWN",
+        "confidence": 0.9995,
+        "status": "HISTORICAL",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "HISTORICAL",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "mechanical ventilatory support",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "tracheostomy",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "MIXED",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 38
+    },
+    "context_summary": {
+      "HISTORICAL": 10,
+      "PRESENT": 28
+    },
+    "similar_reports": [
+      {
+        "record_index": 4664,
+        "similarity": 1.0,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Pneumoconiosis "
+      },
+      {
+        "record_index": 4148,
+        "similarity": 1.0,
+        "medical_specialty": " Consult - History and Phy.",
+        "sample_name": " Pneumoconiosis "
+      },
+      {
+        "record_index": 3942,
+        "similarity": 0.9636074900627136,
+        "medical_specialty": " Discharge Summary",
+        "sample_name": " COPD - Discharge Summary "
+      },
+      {
+        "record_index": 4821,
+        "similarity": 0.9636074900627136,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " COPD - Discharge Summary "
+      },
+      {
+        "record_index": 4721,
+        "similarity": 0.9608912467956543,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Lobectomy - Followup "
+      }
+    ]
+  },
+  {
+    "record_index": 3454,
+    "medical_specialty": " Gastroenterology",
+    "sample_name": " Postop Transanal Excision ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Bleeding after transanal excision five days ago., POSTOPERATIVE DIAGNOSIS:, Bleeding after transanal excision five days ago., PROCEDURE:, Exam under anesthesia with control of bleeding via cautery., ANESTHESIA:, General endotracheal., INDICATION:, The patient is a 42-year-old gentleman who is five days out from transanal excision of a benign anterior base lesion. He presents today with diarrhea and bleeding. Digital exam reveals bright red blood on the finger. He is for ",
+    "total_entities": 11,
+    "top_entities": [
+      {
+        "entity": "bleeding",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "ulcer",
+        "category": "UNKNOWN",
+        "confidence": 0.9991,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "exam",
+        "category": "UNKNOWN",
+        "confidence": 0.9982,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "42 - year - old",
+        "category": "UNKNOWN",
+        "confidence": 0.9975,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "UNKNOWN",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "wound",
+        "category": "UNKNOWN",
+        "confidence": 0.9737,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "five days",
+        "category": "UNKNOWN",
+        "confidence": 0.9473,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "ca",
+        "category": "UNKNOWN",
+        "confidence": 0.9108,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "anterior rectal",
+        "category": "UNKNOWN",
+        "confidence": 0.8948,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "extubated",
+        "category": "UNKNOWN",
+        "confidence": 0.8389,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "days",
+        "category": "UNKNOWN",
+        "confidence": 0.7413,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 11
+    },
+    "context_summary": {
+      "PRESENT": 11
+    },
+    "similar_reports": [
+      {
+        "record_index": 409,
+        "similarity": 1.000000238418579,
+        "medical_specialty": " Surgery",
+        "sample_name": " Postop Transanal Excision "
+      },
+      {
+        "record_index": 960,
+        "similarity": 0.9661892652511597,
+        "medical_specialty": " Surgery",
+        "sample_name": " Condyloma Cauterization "
+      },
+      {
+        "record_index": 3991,
+        "similarity": 0.9661892652511597,
+        "medical_specialty": " Dermatology",
+        "sample_name": " Condyloma Cauterization "
+      },
+      {
+        "record_index": 3593,
+        "similarity": 0.9623196721076965,
+        "medical_specialty": " Gastroenterology",
+        "sample_name": " Colonoscopy With Photos "
+      },
+      {
+        "record_index": 965,
+        "similarity": 0.9623196721076965,
+        "medical_specialty": " Surgery",
+        "sample_name": " Colonoscopy With Photos "
+      }
+    ]
+  },
+  {
+    "record_index": 4829,
+    "medical_specialty": " Cardiovascular / Pulmonary",
+    "sample_name": " Cineangiography - 1 ",
+    "text_preview": "REASON FOR CATHETERIZATION:, ST-elevation myocardial infarction., PROCEDURES UNDERTAKEN, 1. Left coronary system cineangiography., 2. Right coronary system cineangiography., 3. Left ventriculogram., 4. PCI to the left circumflex with a 3.5 x 12 and a 3.5 x 8 mm Vision bare-metal stents postdilated with a 3.75-mm noncompliant balloon x2., PROCEDURE:, After all risks and benefits were explained to the patient, informed consent was obtained. The patient was brought to the cardiac cath suite. Right ",
+    "total_entities": 31,
+    "top_entities": [
+      {
+        "entity": "drip",
+        "category": "UNKNOWN",
+        "confidence": 0.9994,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "plaque shift",
+        "category": "UNKNOWN",
+        "confidence": 0.9993,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right groin",
+        "category": "UNKNOWN",
+        "confidence": 0.9985,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "stenosis",
+        "category": "UNKNOWN",
+        "confidence": 0.9977,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "mild",
+        "category": "UNKNOWN",
+        "confidence": 0.9971,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "infarction",
+        "category": "UNKNOWN",
+        "confidence": 0.997,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "left circumflex",
+        "category": "UNKNOWN",
+        "confidence": 0.9966,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right common femoral artery",
+        "category": "UNKNOWN",
+        "confidence": 0.9935,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "aortic valve",
+        "category": "UNKNOWN",
+        "confidence": 0.9928,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "balloon",
+        "category": "UNKNOWN",
+        "confidence": 0.9924,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 31
+    },
+    "context_summary": {
+      "PRESENT": 31
+    },
+    "similar_reports": [
+      {
+        "record_index": 1020,
+        "similarity": 0.9999997615814209,
+        "medical_specialty": " Surgery",
+        "sample_name": " Cineangiography - 1 "
+      },
+      {
+        "record_index": 1021,
+        "similarity": 0.9796998500823975,
+        "medical_specialty": " Surgery",
+        "sample_name": " Cineangiography "
+      },
+      {
+        "record_index": 4832,
+        "similarity": 0.9796998500823975,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Cineangiography "
+      },
+      {
+        "record_index": 735,
+        "similarity": 0.9783938527107239,
+        "medical_specialty": " Surgery",
+        "sample_name": " Heart Catheterization, Ventriculography, & Angiography - 4 "
+      },
+      {
+        "record_index": 4745,
+        "similarity": 0.9783938527107239,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Heart Catheterization, Ventriculography, & Angiography - 4 "
+      }
+    ]
+  },
+  {
+    "record_index": 4910,
+    "medical_specialty": " Cardiovascular / Pulmonary",
+    "sample_name": " Bronchoscopy - 8 ",
+    "text_preview": "PREOPERATIVE DIAGNOSIS:, Persistent pneumonia, right upper lobe of the lung, possible mass., POSTOPERATIVE DIAGNOSIS:, Persistent pneumonia, right upper lobe of the lung, possible mass., PROCEDURE:, Bronchoscopy with brush biopsies., DESCRIPTION OF PROCEDURE:, After obtaining an informed consent, the patient was taken to the operating room where he underwent a general endotracheal anesthesia. A time-out process had been followed and then the flexible bronchoscope was inserted through the endotra",
+    "total_entities": 14,
+    "top_entities": [
+      {
+        "entity": "mass",
+        "category": "UNKNOWN",
+        "confidence": 0.9998,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "carina",
+        "category": "UNKNOWN",
+        "confidence": 0.9979,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right upper lobe",
+        "category": "UNKNOWN",
+        "confidence": 0.9973,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "biopsy",
+        "category": "UNKNOWN",
+        "confidence": 0.9897,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "segments",
+        "category": "UNKNOWN",
+        "confidence": 0.9852,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "scars",
+        "category": "UNKNOWN",
+        "confidence": 0.9836,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "taken",
+        "category": "UNKNOWN",
+        "confidence": 0.9612,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "right upper",
+        "category": "UNKNOWN",
+        "confidence": 0.9298,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "normal",
+        "category": "UNKNOWN",
+        "confidence": 0.9266,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      },
+      {
+        "entity": "abnormalities",
+        "category": "UNKNOWN",
+        "confidence": 0.897,
+        "status": "PRESENT",
+        "negated": false,
+        "uncertain": false,
+        "temporality": "CURRENT",
+        "family_history": false,
+        "context": ""
+      }
+    ],
+    "category_summary": {
+      "UNKNOWN": 14
+    },
+    "context_summary": {
+      "PRESENT": 14
+    },
+    "similar_reports": [
+      {
+        "record_index": 1113,
+        "similarity": 1.0000001192092896,
+        "medical_specialty": " Surgery",
+        "sample_name": " Bronchoscopy - 8 "
+      },
+      {
+        "record_index": 779,
+        "similarity": 0.9792642593383789,
+        "medical_specialty": " Surgery",
+        "sample_name": " Flexible Fiberoptic Bronchoscopy -1 "
+      },
+      {
+        "record_index": 4765,
+        "similarity": 0.9792642593383789,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Flexible Fiberoptic Bronchoscopy -1 "
+      },
+      {
+        "record_index": 783,
+        "similarity": 0.9723881483078003,
+        "medical_specialty": " Surgery",
+        "sample_name": " Flexible Bronchoscopy "
+      },
+      {
+        "record_index": 4761,
+        "similarity": 0.9723881483078003,
+        "medical_specialty": " Cardiovascular / Pulmonary",
+        "sample_name": " Flexible Bronchoscopy "
+      }
+    ]
+  }
+]

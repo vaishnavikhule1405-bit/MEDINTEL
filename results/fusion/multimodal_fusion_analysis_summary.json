@@ -1,0 +1,198 @@
+{
+  "stage": "9.21",
+  "analysis": "Multimodal Evidence Analysis",
+  "num_synthetic_cases": 500,
+  "modality_statistics": [
+    {
+      "Modality": "Clinical",
+      "Mean Evidence": 0.6013782858252525,
+      "Median Evidence": 0.6166361570358276,
+      "Std Dev": 0.2219570198129649,
+      "Minimum": 0.14683112502098083,
+      "Maximum": 0.9982150793075562
+    },
+    {
+      "Modality": "Imaging",
+      "Mean Evidence": 0.753271137090167,
+      "Median Evidence": 0.9865420162677765,
+      "Std Dev": 0.36878305220336605,
+      "Minimum": 0.0008789255516603,
+      "Maximum": 0.9999966621398926
+    },
+    {
+      "Modality": "Medical Text",
+      "Mean Evidence": 0.5,
+      "Median Evidence": 0.5,
+      "Std Dev": 0.289542751038074,
+      "Minimum": 0.0,
+      "Maximum": 1.0
+    }
+  ],
+  "average_modality_contribution": [
+    {
+      "Modality": "Clinical",
+      "Average Contribution": 0.34441523649688904
+    },
+    {
+      "Modality": "Imaging",
+      "Average Contribution": 0.3881132957108193
+    },
+    {
+      "Modality": "Medical Text",
+      "Average Contribution": 0.2674714677922916
+    }
+  ],
+  "clinical_imaging_agreement": {
+    "MODALITY_DISAGREEMENT": 418,
+    "LOW_EVIDENCE_AGREEMENT": 43,
+    "HIGH_AGREEMENT": 39
+  },
+  "cross_modality_correlation": {
+    "clinical_evidence": {
+      "clinical_evidence": 1.0,
+      "imaging_evidence": -0.07265982696343358,
+      "textual_evidence": -0.026159956486976017
+    },
+    "imaging_evidence": {
+      "clinical_evidence": -0.07265982696343358,
+      "imaging_evidence": 1.0,
+      "textual_evidence": 0.042395154663607514
+    },
+    "textual_evidence": {
+      "clinical_evidence": -0.026159956486976017,
+      "imaging_evidence": 0.042395154663607514,
+      "textual_evidence": 1.0
+    }
+  },
+  "evidence_level_distribution": {
+    "MODERATE": 267,
+    "HIGH": 174,
+    "LOW": 59
+  },
+  "missing_modality_analysis": [
+    {
+      "configuration": "COMPLETE",
+      "available_modalities": "clinical, imaging, text",
+      "mean_evidence": 0.6182164743051398,
+      "median_evidence": 0.6256536773784533,
+      "std_evidence": 0.17074069357355182
+    },
+    {
+      "configuration": "NO_IMAGING",
+      "available_modalities": "clinical, text",
+      "mean_evidence": 0.5506891429126263,
+      "median_evidence": 0.5597471432659573,
+      "std_evidence": 0.17991529557234878
+    },
+    {
+      "configuration": "NO_TEXT",
+      "available_modalities": "clinical, imaging",
+      "mean_evidence": 0.6773247114577098,
+      "median_evidence": 0.7153182849287987,
+      "std_evidence": 0.20798084251343368
+    },
+    {
+      "configuration": "NO_CLINICAL",
+      "available_modalities": "imaging, text",
+      "mean_evidence": 0.6266355685450835,
+      "median_evidence": 0.6562149630400365,
+      "std_evidence": 0.23897277221129878
+    },
+    {
+      "configuration": "CLINICAL_ONLY",
+      "available_modalities": "clinical",
+      "mean_evidence": 0.6013782858252525,
+      "median_evidence": 0.6166361570358276,
+      "std_evidence": 0.22173495170352459
+    },
+    {
+      "configuration": "IMAGING_ONLY",
+      "available_modalities": "imaging",
+      "mean_evidence": 0.753271137090167,
+      "median_evidence": 0.9865420162677765,
+      "std_evidence": 0.36841408457501423
+    },
+    {
+      "configuration": "TEXT_ONLY",
+      "available_modalities": "text",
+      "mean_evidence": 0.5,
+      "median_evidence": 0.5,
+      "std_evidence": 0.2892530633707078
+    },
+    {
+      "configuration": "NO_EVIDENCE",
+      "available_modalities": "None",
+      "mean_evidence": 0.0,
+      "median_evidence": 0.0,
+      "std_evidence": 0.0
+    }
+  ],
+  "ablation_analysis": [
+    {
+      "configuration": "COMPLETE",
+      "available_modalities": "clinical, imaging, text",
+      "mean_evidence": 0.6182164743051398,
+      "median_evidence": 0.6256536773784533,
+      "std_evidence": 0.17074069357355182,
+      "relative_to_complete": 1.0
+    },
+    {
+      "configuration": "NO_IMAGING",
+      "available_modalities": "clinical, text",
+      "mean_evidence": 0.5506891429126263,
+      "median_evidence": 0.5597471432659573,
+      "std_evidence": 0.17991529557234878,
+      "relative_to_complete": 0.8907707345256164
+    },
+    {
+      "configuration": "NO_TEXT",
+      "available_modalities": "clinical, imaging",
+      "mean_evidence": 0.6773247114577098,
+      "median_evidence": 0.7153182849287987,
+      "std_evidence": 0.20798084251343368,
+      "relative_to_complete": 1.0956109059031567
+    },
+    {
+      "configuration": "NO_CLINICAL",
+      "available_modalities": "imaging, text",
+      "mean_evidence": 0.6266355685450835,
+      "median_evidence": 0.6562149630400365,
+      "std_evidence": 0.23897277221129878,
+      "relative_to_complete": 1.0136183595712271
+    },
+    {
+      "configuration": "CLINICAL_ONLY",
+      "available_modalities": "clinical",
+      "mean_evidence": 0.6013782858252525,
+      "median_evidence": 0.6166361570358276,
+      "std_evidence": 0.22173495170352459,
+      "relative_to_complete": 0.9727632808575459
+    },
+    {
+      "configuration": "IMAGING_ONLY",
+      "available_modalities": "imaging",
+      "mean_evidence": 0.753271137090167,
+      "median_evidence": 0.9865420162677765,
+      "std_evidence": 0.36841408457501423,
+      "relative_to_complete": 1.2184585309487672
+    },
+    {
+      "configuration": "TEXT_ONLY",
+      "available_modalities": "text",
+      "mean_evidence": 0.5,
+      "median_evidence": 0.5,
+      "std_evidence": 0.2892530633707078,
+      "relative_to_complete": 0.808778188193687
+    },
+    {
+      "configuration": "NO_EVIDENCE",
+      "available_modalities": "None",
+      "mean_evidence": 0.0,
+      "median_evidence": 0.0,
+      "std_evidence": 0.0,
+      "relative_to_complete": 0.0
+    }
+  ],
+  "unknown_nlp_entities": 0,
+  "methodological_note": "The multimodal evidence index is a prototype aggregation measure over independent synthetic demonstration records. It is not a calibrated clinical risk probability or validated diagnostic score."
+}

@@ -1,0 +1,29 @@
+{
+  "module": "MedIntel AI Multimodal Evidence Fusion",
+  "stage": "9.22",
+  "architecture": "Late Evidence Fusion",
+  "modalities": {
+    "clinical": {
+      "model": "XGBoost",
+      "output": "Disease probability distribution",
+      "explainability": "SHAP"
+    },
+    "imaging": {
+      "model": "Custom CNN",
+      "output": "Normal/Pneumonia probability",
+      "explainability": "Grad-CAM"
+    },
+    "medical_text": {
+      "model": "Biomedical NER",
+      "output": "Clinical entities and contextual evidence",
+      "explainability": "Entity-level textual evidence"
+    }
+  },
+  "fusion_method": "Prototype late evidence aggregation",
+  "synthetic_cases": 500,
+  "same_patient_data": false,
+  "clinical_validation": false,
+  "calibrated_risk_probability": false,
+  "human_oversight_required": true,
+  "safety_note": "This fusion module is a research prototype using independent datasets. Synthetic cases do not represent real patients. The multimodal evidence index is not a clinically validated diagnostic or risk probability."
+}

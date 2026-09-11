@@ -1,0 +1,400 @@
+{
+  "sample_name": " Allergic Rhinitis ",
+  "medical_specialty": " Allergy / Immunology",
+  "entity_count": 31,
+  "entities": [
+    {
+      "text": "23 - year - old",
+      "model_label": "Age",
+      "medintel_label": "MEASUREMENT",
+      "confidence": 0.992,
+      "start": 18,
+      "end": 29
+    },
+    {
+      "text": "presents",
+      "model_label": "Clinical_event",
+      "medintel_label": "CLINICAL_EVENT",
+      "confidence": 0.999,
+      "start": 43,
+      "end": 51
+    },
+    {
+      "text": "all",
+      "model_label": "Disease_disorder",
+      "medintel_label": "PROBLEM",
+      "confidence": 0.8352,
+      "start": 98,
+      "end": 101
+    },
+    {
+      "text": "##ergies",
+      "model_label": "Sign_symptom",
+      "medintel_label": "SYMPTOM",
+      "confidence": 0.6156,
+      "start": 101,
+      "end": 107
+    },
+    {
+      "text": "z",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.5304,
+      "start": 211,
+      "end": 212
+    },
+    {
+      "text": "all",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.8706,
+      "start": 298,
+      "end": 301
+    },
+    {
+      "text": "summer",
+      "model_label": "Duration",
+      "medintel_label": "CLINICAL_ATTRIBUTE",
+      "confidence": 0.6768,
+      "start": 331,
+      "end": 337
+    },
+    {
+      "text": "two",
+      "model_label": "Duration",
+      "medintel_label": "CLINICAL_ATTRIBUTE",
+      "confidence": 0.8871,
+      "start": 367,
+      "end": 370
+    },
+    {
+      "text": "asthma",
+      "model_label": "History",
+      "medintel_label": "CLINICAL_HISTORY",
+      "confidence": 0.5445,
+      "start": 511,
+      "end": 517
+    },
+    {
+      "text": "medication",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9894,
+      "start": 546,
+      "end": 556
+    },
+    {
+      "text": "or",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9996,
+      "start": 651,
+      "end": 653
+    },
+    {
+      "text": "##tho tri - cyclen",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9752,
+      "start": 653,
+      "end": 667
+    },
+    {
+      "text": "vitals",
+      "model_label": "Diagnostic_procedure",
+      "medintel_label": "TEST",
+      "confidence": 0.9013,
+      "start": 748,
+      "end": 754
+    },
+    {
+      "text": "weight",
+      "model_label": "Diagnostic_procedure",
+      "medintel_label": "TEST",
+      "confidence": 0.9999,
+      "start": 756,
+      "end": 762
+    },
+    {
+      "text": "130 pounds",
+      "model_label": "Lab_value",
+      "medintel_label": "MEASUREMENT",
+      "confidence": 0.9996,
+      "start": 767,
+      "end": 777
+    },
+    {
+      "text": "blood pressure",
+      "model_label": "Diagnostic_procedure",
+      "medintel_label": "TEST",
+      "confidence": 0.9935,
+      "start": 782,
+      "end": 796
+    },
+    {
+      "text": "124",
+      "model_label": "Lab_value",
+      "medintel_label": "MEASUREMENT",
+      "confidence": 0.9927,
+      "start": 797,
+      "end": 800
+    },
+    {
+      "text": "throat",
+      "model_label": "Biological_structure",
+      "medintel_label": "ANATOMY",
+      "confidence": 0.9999,
+      "start": 817,
+      "end": 823
+    },
+    {
+      "text": "erythematous",
+      "model_label": "Sign_symptom",
+      "medintel_label": "SYMPTOM",
+      "confidence": 0.9257,
+      "start": 835,
+      "end": 847
+    },
+    {
+      "text": "nasal mucosa",
+      "model_label": "Biological_structure",
+      "medintel_label": "ANATOMY",
+      "confidence": 0.9987,
+      "start": 865,
+      "end": 877
+    },
+    {
+      "text": "er",
+      "model_label": "Sign_symptom",
+      "medintel_label": "SYMPTOM",
+      "confidence": 0.9873,
+      "start": 882,
+      "end": 884
+    },
+    {
+      "text": "##ythematous",
+      "model_label": "Sign_symptom",
+      "medintel_label": "SYMPTOM",
+      "confidence": 0.8023,
+      "start": 884,
+      "end": 894
+    },
+    {
+      "text": "t",
+      "model_label": "Diagnostic_procedure",
+      "medintel_label": "TEST",
+      "confidence": 0.9973,
+      "start": 938,
+      "end": 939
+    },
+    {
+      "text": "neck",
+      "model_label": "Biological_structure",
+      "medintel_label": "ANATOMY",
+      "confidence": 0.9126,
+      "start": 955,
+      "end": 959
+    },
+    {
+      "text": "lo",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9979,
+      "start": 1123,
+      "end": 1125
+    },
+    {
+      "text": "##rata",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9548,
+      "start": 1125,
+      "end": 1129
+    },
+    {
+      "text": "nas",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9999,
+      "start": 1225,
+      "end": 1228
+    },
+    {
+      "text": "##one",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.9988,
+      "start": 1228,
+      "end": 1231
+    },
+    {
+      "text": "##x",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.7355,
+      "start": 1231,
+      "end": 1232
+    },
+    {
+      "text": "spray",
+      "model_label": "Medication",
+      "medintel_label": "MEDICATION",
+      "confidence": 0.7124,
+      "start": 1237,
+      "end": 1242
+    },
+    {
+      "text": "each nostril",
+      "model_label": "Biological_structure",
+      "medintel_label": "ANATOMY",
+      "confidence": 0.9039,
+      "start": 1247,
+      "end": 1259
+    }
+  ],
+  "structured_entities": {
+    "PROBLEM": [
+      {
+        "text": "all",
+        "confidence": 0.8352
+      }
+    ],
+    "SYMPTOM": [
+      {
+        "text": "##ergies",
+        "confidence": 0.6156
+      },
+      {
+        "text": "erythematous",
+        "confidence": 0.9257
+      },
+      {
+        "text": "er",
+        "confidence": 0.9873
+      },
+      {
+        "text": "##ythematous",
+        "confidence": 0.8023
+      }
+    ],
+    "MEDICATION": [
+      {
+        "text": "z",
+        "confidence": 0.5304
+      },
+      {
+        "text": "all",
+        "confidence": 0.8706
+      },
+      {
+        "text": "medication",
+        "confidence": 0.9894
+      },
+      {
+        "text": "or",
+        "confidence": 0.9996
+      },
+      {
+        "text": "##tho tri - cyclen",
+        "confidence": 0.9752
+      },
+      {
+        "text": "lo",
+        "confidence": 0.9979
+      },
+      {
+        "text": "##rata",
+        "confidence": 0.9548
+      },
+      {
+        "text": "nas",
+        "confidence": 0.9999
+      },
+      {
+        "text": "##one",
+        "confidence": 0.9988
+      },
+      {
+        "text": "##x",
+        "confidence": 0.7355
+      },
+      {
+        "text": "spray",
+        "confidence": 0.7124
+      }
+    ],
+    "TEST": [
+      {
+        "text": "vitals",
+        "confidence": 0.9013
+      },
+      {
+        "text": "weight",
+        "confidence": 0.9999
+      },
+      {
+        "text": "blood pressure",
+        "confidence": 0.9935
+      },
+      {
+        "text": "t",
+        "confidence": 0.9973
+      }
+    ],
+    "PROCEDURE": [],
+    "ANATOMY": [
+      {
+        "text": "throat",
+        "confidence": 0.9999
+      },
+      {
+        "text": "nasal mucosa",
+        "confidence": 0.9987
+      },
+      {
+        "text": "neck",
+        "confidence": 0.9126
+      },
+      {
+        "text": "each nostril",
+        "confidence": 0.9039
+      }
+    ],
+    "MEASUREMENT": [
+      {
+        "text": "23 - year - old",
+        "confidence": 0.992
+      },
+      {
+        "text": "130 pounds",
+        "confidence": 0.9996
+      },
+      {
+        "text": "124",
+        "confidence": 0.9927
+      }
+    ],
+    "CLINICAL_ATTRIBUTE": [
+      {
+        "text": "summer",
+        "confidence": 0.6768
+      },
+      {
+        "text": "two",
+        "confidence": 0.8871
+      }
+    ],
+    "CLINICAL_EVENT": [
+      {
+        "text": "presents",
+        "confidence": 0.999
+      }
+    ],
+    "CLINICAL_HISTORY": [
+      {
+        "text": "asthma",
+        "confidence": 0.5445
+      }
+    ]
+  }
+}

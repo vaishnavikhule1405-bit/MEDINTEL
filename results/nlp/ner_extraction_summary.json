@@ -1,0 +1,11 @@
+{
+  "total_records": 4966,
+  "processed_records": 4966,
+  "successful_records": 4966,
+  "error_records": 0,
+  "total_entities": 168569,
+  "average_entities_per_successful_record": 33.94462343938784,
+  "elapsed_seconds": 8162.363771438599,
+  "elapsed_minutes": 136.03939619064332,
+  "output_file": "/content/drive/MyDrive/MedIntel_AI/results/nlp/medical_ner_results.jsonl"
+}

@@ -1,0 +1,27 @@
+{
+    "model_name": "CustomCNN",
+    "role": "Primary chest X-ray imaging model",
+    "benchmark_model": "DenseNet121",
+    "task": "Binary chest X-ray classification",
+    "classes": [
+        "NORMAL",
+        "PNEUMONIA"
+    ],
+    "input_size": [
+        224,
+        224
+    ],
+    "input_channels": 3,
+    "target_gradcam_layer": "block4.0",
+    "checkpoint": "custom_cnn_best.pth",
+    "accuracy": 0.8446,
+    "macro_precision": 0.8891,
+    "macro_recall": 0.7962,
+    "macro_f1": 0.8162,
+    "pneumonia_precision": 0.8058,
+    "pneumonia_f1": 0.8884,
+    "pneumonia_sensitivity": 0.9897,
+    "specificity": 0.6026,
+    "roc_auc": 0.9325,
+    "explainability": "Grad-CAM"
+}

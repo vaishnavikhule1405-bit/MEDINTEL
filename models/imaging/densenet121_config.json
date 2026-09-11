@@ -1,0 +1,18 @@
+{
+    "model": "DenseNet121",
+    "pretrained": true,
+    "weights": "DenseNet121_Weights.DEFAULT",
+    "num_classes": 2,
+    "classes": [
+        "NORMAL",
+        "PNEUMONIA"
+    ],
+    "image_size": 224,
+    "feature_extractor_frozen": true,
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "loss": "Weighted CrossEntropyLoss",
+    "epochs": 10,
+    "early_stopping_patience": 4
+}

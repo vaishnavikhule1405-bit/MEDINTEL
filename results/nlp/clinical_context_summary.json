@@ -1,0 +1,22 @@
+{
+  "total_entities": 168569,
+  "negation_distribution": {
+    "UNKNOWN": 11073,
+    "PRESENT": 86849,
+    "NEGATED": 42581,
+    "MIXED": 28066
+  },
+  "uncertainty_distribution": {
+    "UNKNOWN": 11073,
+    "CERTAIN": 148774,
+    "MIXED": 6123,
+    "UNCERTAIN": 2599
+  },
+  "temporality_distribution": {
+    "UNKNOWN": 11073,
+    "CURRENT": 135424,
+    "HISTORICAL": 8322,
+    "MIXED": 13439,
+    "FAMILY_HISTORY": 311
+  }
+}
