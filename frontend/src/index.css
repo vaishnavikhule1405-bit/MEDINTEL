@@ -2,6 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scroll for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero overlay gradient */
+.hero-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(9, 9, 11, 0.75) 0%,
+    rgba(9, 9, 11, 0.5) 40%,
+    rgba(9, 9, 11, 0.2) 70%,
+    rgba(9, 9, 11, 0.05) 100%
+  );
+}
+
+.dark .hero-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(9, 9, 11, 0.88) 0%,
+    rgba(9, 9, 11, 0.65) 40%,
+    rgba(9, 9, 11, 0.35) 70%,
+    rgba(9, 9, 11, 0.15) 100%
+  );
+}
+
+/* Glass-morphism for floating stat badges */
+.glass-badge {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.dark .glass-badge {
+  background: rgba(24, 24, 27, 0.85);
+  border: 1px solid rgba(63, 63, 70, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Transparent → solid navbar transition */
+.nav-transparent {
+  background: transparent;
+  border-color: transparent;
+}
+
+.nav-solid {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-color: rgba(228, 228, 231, 0.5);
+}
+
+.dark .nav-solid {
+  background: rgba(9, 9, 11, 0.92);
+  border-color: rgba(39, 39, 42, 0.5);
+}
+
+/* Process step active state */
+.process-step-active {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+/* Stat number gradient text */
+.stat-gradient {
+  background: linear-gradient(135deg, #10b981, #059669);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 @layer base {
   :root {
     color-scheme: light;

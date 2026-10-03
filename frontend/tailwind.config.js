@@ -57,10 +57,14 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        display: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
         mono: ['JetBrains Mono', 'Fira Code', 'Courier New', 'monospace'],
       },
       fontSize: {
         '2xs': ['0.625rem', { lineHeight: '0.875rem' }],
+        'display-lg': ['4.5rem', { lineHeight: '1', letterSpacing: '-0.03em' }],
+        'display-md': ['3.5rem', { lineHeight: '1.05', letterSpacing: '-0.025em' }],
+        'display-sm': ['2.5rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
       },
       letterSpacing: {
         widest2: '0.2em',
@@ -73,23 +77,39 @@ export default {
         'mi-sm': '0 1px 2px 0 rgb(0 0 0 / 0.04)',
         'mi':    '0 1px 3px 0 rgb(0 0 0 / 0.06), 0 1px 2px -1px rgb(0 0 0 / 0.04)',
         'mi-md': '0 4px 6px -1px rgb(0 0 0 / 0.06), 0 2px 4px -2px rgb(0 0 0 / 0.04)',
+        'glass': '0 8px 32px rgba(0, 0, 0, 0.08)',
+        'glass-lg': '0 16px 48px rgba(0, 0, 0, 0.12)',
         // Legacy
         'clinical':    '0 1px 3px 0 rgba(15,23,42,0.06), 0 1px 2px -1px rgba(15,23,42,0.04)',
         'clinical-md': '0 4px 6px -1px rgba(15,23,42,0.07), 0 2px 4px -2px rgba(15,23,42,0.05)',
       },
       animation: {
         'fade-in': 'fadeIn 0.3s ease-out',
+        'fade-in-up': 'fadeInUp 0.6s ease-out both',
+        'fade-in-up-delay-1': 'fadeInUp 0.6s ease-out 0.1s both',
+        'fade-in-up-delay-2': 'fadeInUp 0.6s ease-out 0.2s both',
+        'fade-in-up-delay-3': 'fadeInUp 0.6s ease-out 0.3s both',
+        'fade-in-up-delay-4': 'fadeInUp 0.6s ease-out 0.4s both',
         'slide-up': 'slideUp 0.4s ease-out',
         'pulse-slow': 'pulse 3s cubic-bezier(0.4,0,0.6,1) infinite',
+        'scale-in': 'scaleIn 0.5s ease-out both',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(24px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
         slideUp: {
           '0%': { opacity: '0', transform: 'translateY(8px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        scaleIn: {
+          '0%': { opacity: '0', transform: 'scale(0.95)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
         },
       },
       transitionDuration: {

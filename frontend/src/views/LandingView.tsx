@@ -11,7 +11,8 @@ import {
   Shield,
   ArrowRight,
   ChevronRight,
-  ChevronDown
+  ChevronDown,
+  Sparkles
 } from 'lucide-react';
 import { NavTab } from '../types';
 import { ThemeToggle } from '../components/ThemeToggle';
@@ -100,65 +101,65 @@ export const LandingView: React.FC<LandingViewProps> = ({ onEnterApp }) => {
         )}
       </nav>
 
-      {/* 2. Hero */}
-      <section className="relative pt-20 pb-24 md:pt-32 md:pb-32 overflow-hidden border-b border-zinc-200 dark:border-zinc-800 animate-fade-in">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <div className="max-w-3xl mx-auto space-y-6">
-            <div className="text-xs font-medium tracking-widest uppercase text-zinc-400 dark:text-zinc-600">
-              MULTIMODAL HEALTHCARE INTELLIGENCE
+      {/* 2. Hero — Full-bleed 100vh tab background */}
+      <section className="relative min-h-screen h-screen flex flex-col justify-between overflow-hidden bg-zinc-950">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img
+            src="/hero-bg.jpg"
+            alt=""
+            className="w-full h-full object-cover"
+          />
+          <div className="hero-overlay absolute inset-0" />
+        </div>
+
+        {/* Hero Content — centered vertically in the viewport */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-auto pt-24 pb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
+            {/* Left Side */}
+            <div className="space-y-6 animate-fade-in-up">
+              <div className="flex items-center gap-2">
+                <Sparkles className="w-4.5 h-4.5 text-emerald-400" />
+                <span className="text-xs sm:text-sm font-medium tracking-widest uppercase text-emerald-400">
+                  Multimodal Healthcare Intelligence
+                </span>
+              </div>
+              <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-[6rem] font-bold text-white leading-none tracking-tight">
+                Clinical
+                <br />
+                <span className="text-emerald-400">Intelligence</span>
+              </h1>
+              <p className="text-xl sm:text-2xl text-white/80 max-w-lg leading-relaxed">
+                AI that connects the evidence —<br className="hidden sm:block" />
+                from symptoms to scans to decisions.
+              </p>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100 leading-tight">
-              AI That Connects Clinical Evidence
-            </h1>
-            <p className="text-sm md:text-base text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl mx-auto">
-              MedIntel AI combines clinical machine learning, chest X-ray intelligence, and medical-text analysis into an explainable healthcare decision-support platform.
-            </p>
-            
-            <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
-              <button
-                onClick={() => onEnterApp('dashboard')}
-                className="px-4 py-2 rounded-md bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium transition-colors duration-150"
-              >
-                Launch MedIntel AI
-              </button>
-              <button
-                onClick={() => scrollToSection('overview')}
-                className="px-4 py-2 rounded-md border border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-sm font-medium transition-colors duration-150"
-              >
-                Explore the Platform
-              </button>
+
+            {/* Right Side */}
+            <div className="space-y-8 animate-fade-in-up-delay-2">
+              <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed max-w-md lg:ml-auto">
+                Connect clinical data, chest X-ray imaging, and medical text
+                through explainable AI. Get decision support through evidence
+                — on your terms.
+              </p>
+              <div className="lg:flex lg:justify-end">
+                <button
+                  onClick={() => onEnterApp('dashboard')}
+                  className="group flex items-center gap-3 px-8 py-4 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-base sm:text-lg font-medium transition-all duration-200 hover:shadow-xl hover:shadow-emerald-500/25"
+                >
+                  Launch MedIntel AI
+                  <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+                </button>
+              </div>
             </div>
           </div>
+        </div>
 
-          <div className="mt-20 max-w-4xl mx-auto bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl p-8 relative shadow-sm">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative">
-              <div className="flex flex-col gap-4 w-full md:w-1/3">
-                <div className="p-4 rounded-lg bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 text-sm font-medium text-center">Clinical Data</div>
-                <div className="p-4 rounded-lg bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 text-sm font-medium text-center">Chest X-ray</div>
-                <div className="p-4 rounded-lg bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 text-sm font-medium text-center">Medical Text</div>
-              </div>
-              <div className="hidden md:flex flex-col items-center w-24">
-                <div className="h-0.5 w-full bg-emerald-500/40 relative">
-                  <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-2 h-2 rounded-full bg-emerald-500" />
-                </div>
-              </div>
-              <div className="w-full md:w-1/3 bg-white dark:bg-zinc-950 border border-emerald-200 dark:border-emerald-900/50 p-6 rounded-lg shadow-sm">
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <Brain className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
-                  <span className="font-semibold">MedIntel AI Core</span>
-                </div>
-                <div className="text-xs text-zinc-500 dark:text-zinc-400 text-center">Multimodal evidence fusion and explainability engine.</div>
-              </div>
-              <div className="hidden md:flex flex-col items-center w-24">
-                <div className="h-0.5 w-full bg-emerald-500/40 relative">
-                  <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-2 h-2 rounded-full bg-emerald-500" />
-                </div>
-              </div>
-              <div className="w-full md:w-1/3 p-4 rounded-lg bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-center">
-                <Shield className="w-6 h-6 text-emerald-600 dark:text-emerald-400 mx-auto mb-2" />
-                <div className="text-sm font-semibold text-emerald-900 dark:text-emerald-100">Clinical Decision Support</div>
-              </div>
-            </div>
+        {/* Hero Bottom Bar — pinned to the very bottom edge of the screen */}
+        <div className="relative z-10 w-full border-t border-white/15 py-4 bg-zinc-950/40 backdrop-blur-sm">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between text-xs sm:text-sm font-medium tracking-widest uppercase text-white/50">
+            <span>100% EXPLAINABLE AI</span>
+            <span>RESEARCH PLATFORM</span>
           </div>
         </div>
       </section>
