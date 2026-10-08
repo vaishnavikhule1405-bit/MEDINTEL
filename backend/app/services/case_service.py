@@ -2,7 +2,7 @@ import uuid
 import logging
 from typing import List, Optional, Dict, Any
 from sqlalchemy.orm import Session
-from sqlalchemy import desc, func
+from sqlalchemy import desc, func, or_
 
 from backend.app.database import engine, Base
 from backend.app.models.db_models import (
@@ -141,7 +141,8 @@ class CaseService:
         limit: int = 50,
         offset: int = 0,
         case_type: Optional[str] = None,
-        evidence_level: Optional[str] = None
+        evidence_level: Optional[str] = None,
+        search: Optional[str] = None
     ) -> List[CaseListItem]:
         """Query and return paginated list of cases."""
         self.seed_initial_cases_if_empty(db)
@@ -151,6 +152,15 @@ class CaseService:
             query = query.filter(Case.case_type == case_type)
         if evidence_level:
             query = query.filter(Case.evidence_level == evidence_level)
+        if search:
+            search_pattern = f"%{search.strip()}%"
+            query = query.filter(or_(
+                Case.id.ilike(search_pattern),
+                Case.case_number.ilike(search_pattern),
+                Case.patient_identifier.ilike(search_pattern),
+                Case.primary_condition.ilike(search_pattern),
+                Case.title.ilike(search_pattern)
+            ))
 
         records = query.order_by(desc(Case.created_at)).offset(offset).limit(limit).all()
 
@@ -165,7 +175,17 @@ class CaseService:
                 overall_evidence_index=c.overall_evidence_index,
                 evidence_level=c.evidence_level,
                 cross_modality_relationship=c.cross_modality_relationship,
-                created_at=c.created_at
+                created_at=c.created_at,
+                modalities_present=[
+                    modality
+                    for modality, records in (
+                        ("Clinical", c.clinical_inputs),
+                        ("X-ray", c.xray_analyses),
+                        ("Report", c.medical_reports),
+                        ("Fusion", c.multimodal_analyses)
+                    )
+                    if records
+                ]
             )
             for c in records
         ]

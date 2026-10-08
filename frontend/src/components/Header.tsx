@@ -1,7 +1,6 @@
 import React from 'react';
 import { ThemeToggle } from './ThemeToggle';
 import { NavTab } from '../types';
-import { Activity } from 'lucide-react';
 
 interface HeaderProps {
   activeTab: NavTab;
@@ -10,31 +9,31 @@ interface HeaderProps {
 }
 
 const TAB_LABELS: Record<NavTab, string> = {
-  dashboard:      'Dashboard Overview',
-  clinical:       'Clinical Symptom Assessment',
+  dashboard:      'Dashboard',
+  clinical:       'Clinical Assessment',
   imaging:        'Chest X-Ray Analysis',
-  nlp:            'Medical Reports NLP',
-  fusion:         'Multimodal Evidence Fusion',
-  explainability: 'Explainability Studio (XAI)',
-  assistant:      'Clinical AI Assistant',
-  cases:          'Audit Case Registry',
-  analytics:      'System Usage Analytics',
-  'model-info':   'Model Benchmarks & Info',
-  settings:       'System Configuration',
+  nlp:            'Medical Reports',
+  fusion:         'Evidence Fusion',
+  explainability: 'Explainability',
+  assistant:      'Clinical Assistant',
+  cases:          'Case Registry',
+  analytics:      'Analytics',
+  'model-info':   'Model Performance',
+  settings:       'Settings',
 };
 
 const TAB_SECTION: Record<NavTab, string> = {
   dashboard:      'Overview',
-  clinical:       'Clinical ML',
-  imaging:        'Computer Vision',
-  nlp:            'Biomedical NLP',
-  fusion:         'Multimodal',
-  explainability: 'Transparency',
-  assistant:      'Copilot',
-  cases:          'Registry',
-  analytics:      'Analytics',
-  'model-info':   'Evaluation',
-  settings:       'Settings',
+  clinical:       'Assessment',
+  imaging:        'Assessment',
+  nlp:            'Assessment',
+  fusion:         'Evidence',
+  explainability: 'Insights',
+  assistant:      'Tools',
+  cases:          'Records',
+  analytics:      'Insights',
+  'model-info':   'Insights',
+  settings:       'System',
 };
 
 export const Header: React.FC<HeaderProps> = ({ activeTab }) => {
@@ -51,11 +50,11 @@ export const Header: React.FC<HeaderProps> = ({ activeTab }) => {
         </span>
       </div>
 
-      {/* Right controls & status badge */}
+      {/* Right controls and product status */}
       <div className="flex items-center gap-4">
-        <div className="hidden sm:flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 text-emerald-700 dark:text-emerald-400 text-2xs font-semibold">
-          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-          AI Models Operational
+        <div className="hidden sm:flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 text-2xs font-medium">
+          <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+          Research prototype
         </div>
         <ThemeToggle />
       </div>

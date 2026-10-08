@@ -7,9 +7,16 @@ $env:KMP_DUPLICATE_LIB_OK = "TRUE"
 $env:OMP_NUM_THREADS = "1"
 $env:PYTHONPATH = (Resolve-Path "$PSScriptRoot\..").Path
 
-$pythonPath = "C:\Users\VAISHNAVI\AppData\Local\Python\pythoncore-3.14-64\python.exe"
-if (-not (Test-Path $pythonPath)) {
-    $pythonPath = "python"
+$pythonPath = & py -3.12 -c "import sys; print(sys.executable)" 2>$null
+if (-not $pythonPath) {
+    Write-Error "Python 3.12 is required. Install it with the backend dependencies, then run this script again."
+    exit 1
+}
+
+& $pythonPath -c "import torch" 2>$null
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "PyTorch could not be imported by Python 3.12. Check the Python environment and Windows application-control policy."
+    exit 1
 }
 
 Write-Host "Python: $pythonPath" -ForegroundColor Gray

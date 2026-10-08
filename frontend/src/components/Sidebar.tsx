@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Activity,
   Stethoscope,
-  Layers,
   Image,
   FileText,
   Network,
@@ -29,7 +28,6 @@ interface NavItem {
   id: NavTab;
   label: string;
   icon: React.ElementType;
-  badge?: 'operational' | 'development' | 'beta';
 }
 
 interface NavGroup {
@@ -45,27 +43,12 @@ const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    label: 'Clinical Intelligence',
+    label: 'Assessment',
     items: [
-      { id: 'clinical', label: 'Clinical Assessment', icon: Stethoscope, badge: 'operational' },
-    ],
-  },
-  {
-    label: 'Imaging Intelligence',
-    items: [
-      { id: 'imaging', label: 'Chest X-Ray Analysis', icon: Image, badge: 'operational' },
-    ],
-  },
-  {
-    label: 'Medical Intelligence',
-    items: [
-      { id: 'nlp', label: 'Medical Reports', icon: FileText, badge: 'development' },
-    ],
-  },
-  {
-    label: 'Multimodal',
-    items: [
-      { id: 'fusion', label: 'Evidence Fusion', icon: Network, badge: 'development' },
+      { id: 'clinical', label: 'Clinical Assessment', icon: Stethoscope },
+      { id: 'imaging', label: 'Chest X-Ray Analysis', icon: Image },
+      { id: 'nlp', label: 'Medical Reports', icon: FileText },
+      { id: 'fusion', label: 'Evidence Fusion', icon: Network },
     ],
   },
   {
@@ -77,9 +60,9 @@ const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    label: 'AI',
+    label: 'Tools',
     items: [
-      { id: 'assistant', label: 'Clinical Assistant', icon: Bot, badge: 'beta' },
+      { id: 'assistant', label: 'Clinical Assistant', icon: Bot },
       { id: 'cases', label: 'Case Registry', icon: FolderHeart },
     ],
   },
@@ -90,18 +73,6 @@ const NAV_GROUPS: NavGroup[] = [
     ],
   },
 ];
-
-const BADGE_STYLES = {
-  operational: 'text-emerald-600 dark:text-emerald-400',
-  development:  'text-amber-600 dark:text-amber-400',
-  beta:         'text-blue-600 dark:text-blue-400',
-};
-
-const BADGE_LABELS = {
-  operational: 'Live',
-  development: 'Dev',
-  beta:        'Beta',
-};
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, onBackToLanding }) => {
   const [collapsed, setCollapsed] = useState(false);
@@ -116,30 +87,30 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, onBac
       `}
     >
       {/* Logo */}
-      <div className={`flex items-center h-14 border-b border-zinc-200 dark:border-zinc-800 px-3 gap-2.5 shrink-0`}>
-        <div className="w-7 h-7 rounded-lg bg-emerald-600 flex items-center justify-center shrink-0">
+      <div className={`flex items-center h-14 border-b border-zinc-200 dark:border-zinc-800/80 px-3.5 gap-2.5 shrink-0`}>
+        <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shrink-0 shadow-sm shadow-emerald-500/20">
           <Brain className="w-4 h-4 text-white" />
         </div>
         {!collapsed && (
           <div className="min-w-0">
-            <span className="text-sm font-semibold tracking-tight text-zinc-900 dark:text-zinc-100 block leading-none">
-              MEDINTEL<span className="text-emerald-600 dark:text-emerald-400">.AI</span>
+            <span className="text-sm font-bold tracking-tight text-zinc-900 dark:text-zinc-100 block leading-none">
+              MEDINTEL<span className="text-emerald-500 dark:text-emerald-400">.AI</span>
             </span>
-            <span className="text-2xs text-zinc-400 dark:text-zinc-600 tracking-wide">Research Platform</span>
+            <span className="text-2xs text-zinc-400 dark:text-zinc-500 tracking-wide font-medium">Clinical AI Research</span>
           </div>
         )}
       </div>
 
       {/* Nav Groups */}
-      <nav className="flex-1 overflow-y-auto py-3 px-2 space-y-4">
+      <nav className="flex-1 overflow-y-auto py-3.5 px-2 space-y-4">
         {NAV_GROUPS.map((group) => (
           <div key={group.label}>
             {!collapsed && (
-              <p className="px-2 mb-1 text-2xs font-medium tracking-widest uppercase text-zinc-400 dark:text-zinc-600 select-none">
+              <p className="px-2 mb-1.5 text-[10px] font-bold tracking-widest uppercase text-zinc-400 dark:text-zinc-500 select-none">
                 {group.label}
               </p>
             )}
-            <ul className="space-y-0.5">
+            <ul className="space-y-1">
               {group.items.map((item) => {
                 const Icon = item.icon;
                 const isActive = activeTab === item.id;
@@ -149,27 +120,22 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, onBac
                       onClick={() => setActiveTab(item.id)}
                       title={collapsed ? item.label : undefined}
                       className={`
-                        w-full flex items-center gap-2.5 px-2 py-1.5 rounded-md text-sm
-                        transition-colors duration-150 group relative
+                        w-full flex items-center gap-2.5 px-2.5 py-1.5 rounded-lg text-xs
+                        transition-all duration-150 group relative
                         ${isActive
-                          ? 'bg-zinc-100 dark:bg-zinc-800/80 text-zinc-900 dark:text-zinc-100 font-medium'
-                          : 'text-zinc-500 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 hover:text-zinc-800 dark:hover:text-zinc-200'
+                          ? 'bg-emerald-50/80 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-300 font-semibold border border-emerald-200/60 dark:border-emerald-800/40 shadow-2xs'
+                          : 'text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100/80 dark:hover:bg-zinc-900 hover:text-zinc-900 dark:hover:text-zinc-100'
                         }
                       `}
                     >
                       {/* Active indicator bar */}
                       {isActive && (
-                        <span className="absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-4 bg-emerald-500 rounded-full" />
+                        <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-4 bg-emerald-500 rounded-r-full shadow-[0_0_8px_rgba(16,185,129,0.8)]" />
                       )}
-                      <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-emerald-600 dark:text-emerald-400' : ''}`} />
+                      <Icon className={`w-4 h-4 shrink-0 transition-colors ${isActive ? 'text-emerald-600 dark:text-emerald-400' : 'text-zinc-400 dark:text-zinc-500 group-hover:text-zinc-700 dark:group-hover:text-zinc-300'}`} />
                       {!collapsed && (
                         <>
-                          <span className="flex-1 text-left text-xs leading-snug">{item.label}</span>
-                          {item.badge && (
-                            <span className={`text-2xs font-medium ${BADGE_STYLES[item.badge]}`}>
-                              {BADGE_LABELS[item.badge]}
-                            </span>
-                          )}
+                          <span className="flex-1 text-left truncate leading-tight">{item.label}</span>
                         </>
                       )}
                     </button>

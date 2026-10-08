@@ -312,6 +312,15 @@ Copy `.env.example` to `.env` and adjust if needed:
 copy .env.example .env
 ```
 
+To enable natural-language explanations in the Clinical Assistant, add a Groq API key to `.env`:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=openai/gpt-oss-120b
+```
+
+The key stays on the backend. MEDINTEL's analysis tools produce the findings; Groq only explains those findings. Without a key, the assistant uses its built-in response. Do not send identifiable patient information to an external API.
+
 Key variables (defaults work out of the box):
 
 ```env
@@ -333,7 +342,6 @@ IMAGING_MODEL_PATH=models/imaging/custom_cnn_best.pth
 ### Option A — Unified Windows Launcher (Recommended)
 
 ```powershell
-.\scripts\start_all.bat
 ```
 
 Opens two terminal windows automatically — one for backend, one for frontend.
@@ -547,27 +555,31 @@ URL: `/#/app/explainability`
 
 ### 🤖 AI Healthcare Assistant
 
-**Inputs:** Natural language clinical questions
-**Output:** AI-generated clinical analysis using 8 backend tools
+**Inputs:** Natural-language questions, optional symptoms, medical note text, and an uploaded chest X-ray
+**Output:** MEDINTEL model results, optional Groq explanation, and tool execution status
 
 **Step-by-step:**
 
-1. Type a clinical question in the chat input
-2. Press **Enter** or click **Send**
-3. The assistant automatically selects and calls the relevant backend tools
+1. Ask a question or enter symptoms in the optional clinical information panel
+2. Optionally paste a medical note or attach a JPG/PNG chest X-ray
+3. Press **Enter** or click **Send**
+4. MEDINTEL runs the relevant models and displays which tools succeeded or failed
+5. If Groq is configured, it explains the MEDINTEL results; without Groq, built-in responses are used
 
 **What to ask:**
 
 | Example Message | Tools Called |
 |---|---|
-| "What disease matches: fever, cough, shortness of breath?" | `analyze_symptoms` |
-| "Analyze a chest X-ray for a 65-year-old male" | `analyze_xray` |
-| "Extract clinical entities from: Patient has severe headache and photophobia..." | `analyze_medical_report` |
+| "What does this model output mean?" with symptoms entered | `analyze_symptoms` |
+| "Analyze this X-ray" with an image attached | `analyze_xray` |
+| Paste a medical note in the optional note field | `analyze_medical_report` |
 | "Show me case CASE-001" | `get_case_history` |
 | "How does SHAP attribution work?" | `get_model_explanation` |
-| "Give me a multimodal evidence profile for fever + cough symptoms" | `get_multimodal_evidence` |
+| Enter symptoms and attach an X-ray or medical note | `get_multimodal_evidence` |
 | "Find similar reports to: right lower lobe pneumonia" | `retrieve_similar_reports` |
 | "Summarize case CASE-042" | `summarize_case` |
+
+X-ray analysis never substitutes a built-in demo image for an upload. Groq is optional and receives the user's question, recent chat context, and MEDINTEL's analysis results for explanation; do not submit identifying or sensitive patient information.
 
 **Response structure:**
 - Tool execution trace (which tools were called and why)

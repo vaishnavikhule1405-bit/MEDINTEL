@@ -62,6 +62,7 @@ class MultimodalEvidenceProfileResponse(BaseModel):
     imaging_evidence_score: Optional[float] = None
     textual_evidence_score: Optional[float] = None
 
+    provenance: Optional[Dict[str, Any]] = None
     synthetic_badge: str = "SYNTHETIC DEMONSTRATION"
     disclaimer: str
     safety_note: str

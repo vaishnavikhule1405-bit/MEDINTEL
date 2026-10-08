@@ -1,0 +1,9 @@
+SYNTHETIC DEMONSTRATION NOTE — NOT A REAL PATIENT
+
+Chief concern: A fictional patient reports fever, cough, and shortness of breath.
+
+Assessment: Pneumonia is documented as a current problem in this example note.
+
+Medication list: Albuterol and azithromycin are mentioned in the fictional record.
+
+Plan: Review the documented symptoms, problem, and medications. This synthetic note is for software demonstration only and does not provide medical advice.

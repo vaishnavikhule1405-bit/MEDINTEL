@@ -1,16 +1,47 @@
+import json
 import logging
-from typing import List, Dict, Any
-from fastapi import APIRouter, Depends, HTTPException, status
+from typing import Dict, Any
+from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile, status
 from sqlalchemy.orm import Session
+from starlette.concurrency import run_in_threadpool
 
 from backend.app.dependencies import get_db
-from backend.app.schemas.assistant import ChatRequest, ChatResponse
+from backend.app.config import settings
+from backend.app.schemas.assistant import ChatMessage, ChatRequest, ChatResponse
 from backend.app.services.agent_service import agent_service
 from backend.app.models.db_models import AssistantInteraction
+from backend.app.routes.imaging import _validate_image_file
 
 logger = logging.getLogger("medintel.routes.assistant")
 
 router = APIRouter(prefix="/api/assistant", tags=["Agentic AI Healthcare Assistant"])
+
+
+def _save_interaction(request: ChatRequest, response: ChatResponse, db: Session) -> None:
+    interaction = AssistantInteraction(
+        case_id=request.case_id,
+        session_id=response.session_id,
+        user_message=request.message,
+        assistant_response=response.reply,
+        tool_calls=[tool.model_dump() for tool in response.tools_executed],
+        concordance_flag=response.concordance_status
+    )
+    db.add(interaction)
+    db.commit()
+
+
+@router.get(
+    "/status",
+    summary="Check assistant language API configuration",
+    description="Reports whether Groq is configured without exposing the API key."
+)
+def assistant_status() -> Dict[str, Any]:
+    configured = bool(settings.GROQ_API_KEY.strip())
+    return {
+        "language_api": "groq" if configured else "built-in",
+        "groq_configured": configured,
+        "model": settings.GROQ_MODEL if configured else None,
+    }
 
 
 @router.post(
@@ -32,19 +63,7 @@ def chat_with_assistant(request: ChatRequest, db: Session = Depends(get_db)) -> 
 
     try:
         response = agent_service.process_chat(request)
-        
-        # Persist interaction into database
-        interaction = AssistantInteraction(
-            case_id=request.case_id,
-            session_id=response.session_id,
-            user_message=request.message,
-            assistant_response=response.reply,
-            tool_calls=[t.model_dump() for t in response.tools_executed],
-            concordance_flag=response.concordance_status
-        )
-        db.add(interaction)
-        db.commit()
-
+        _save_interaction(request, response, db)
         return response
     except Exception as e:
         logger.error(f"Error processing assistant interaction: {e}", exc_info=True)
@@ -52,6 +71,60 @@ def chat_with_assistant(request: ChatRequest, db: Session = Depends(get_db)) -> 
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Clinical assistant processing failed: {str(e)}"
         )
+
+
+@router.post(
+    "/chat/image",
+    response_model=ChatResponse,
+    summary="Chat with an uploaded chest X-ray",
+    description="Runs the imaging model on the image provided with the assistant message."
+)
+async def chat_with_image(
+    message: str = Form(..., min_length=1, max_length=4000),
+    file: UploadFile = File(...),
+    session_id: str | None = Form(None),
+    case_id: str | None = Form(None),
+    symptoms: str = Form(""),
+    medical_text: str = Form("", max_length=20000),
+    history: str = Form("[]", max_length=50000),
+    db: Session = Depends(get_db)
+) -> ChatResponse:
+    if not message.strip():
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Inquiry message cannot be empty."
+        )
+
+    try:
+        contents = await file.read(settings.MAX_UPLOAD_SIZE_MB * 1024 * 1024 + 1)
+        _validate_image_file(file, contents)
+        history_items = json.loads(history)
+        if not isinstance(history_items, list):
+            raise ValueError("Conversation history must be a list.")
+        request = ChatRequest(
+            message=message,
+            session_id=session_id,
+            case_id=case_id,
+            symptoms=[item.strip() for item in symptoms.split(",") if item.strip()] or None,
+            medical_text=medical_text or None,
+            history=[ChatMessage.model_validate(item) for item in history_items]
+        )
+        response = await run_in_threadpool(agent_service.process_chat, request, contents)
+        _save_interaction(request, response, db)
+        return response
+    except HTTPException:
+        raise
+    except (json.JSONDecodeError, ValueError) as error:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid assistant request: {error}"
+        ) from error
+    except Exception as error:
+        logger.error("Error processing assistant image interaction: %s", error, exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Clinical assistant processing failed: {error}"
+        ) from error
 
 
 @router.get(
@@ -70,7 +143,7 @@ def list_agent_tools() -> Dict[str, Any]:
             {
                 "name": "analyze_xray",
                 "description": "Classifies chest radiograph with Custom CNN (Normal vs Pneumonia) and derives Grad-CAM visual evidence on block4.0.",
-                "parameters": ["image_bytes or sample_type: str"]
+                "parameters": ["uploaded_image: jpg, jpeg, or png"]
             },
             {
                 "name": "analyze_medical_report",

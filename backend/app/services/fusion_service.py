@@ -7,9 +7,9 @@ from backend.app.services.model_manager import model_manager
 from backend.app.services.clinical_service import clinical_service
 from backend.app.services.imaging_service import imaging_service
 from backend.app.services.nlp_service import nlp_service
-from backend.app.schemas.clinical import ClinicalPredictionResponse
-from backend.app.schemas.imaging import ImagingPredictionResponse
-from backend.app.schemas.nlp import NLPAnalysisResponse
+from backend.app.schemas.clinical import ClinicalPredictionResponse, DiseasePrediction, ModelEvaluationMetrics
+from backend.app.schemas.imaging import ImagingPredictionResponse, VisualEvidence, ImagingModelMetrics
+from backend.app.schemas.nlp import NLPAnalysisResponse, ExtractedEntity, CategorizedEntities, CategoryCounts
 from backend.app.schemas.fusion import (
     ModalityContributions,
     ModalityAvailability,
@@ -140,15 +140,153 @@ class LateEvidenceFusionService:
             ]
         )
 
+        # Reconstruct clinical analysis if available in synthetic record
+        clin_analysis: Optional[ClinicalPredictionResponse] = None
+        if clin:
+            disease = clin.get("predicted_disease", "Undetermined")
+            conf = float(clin.get("confidence", clin_ev))
+            top_preds: List[DiseasePrediction] = []
+            for idx, p in enumerate(clin.get("top_predictions", [])):
+                dname = p.get("disease", "Unknown")
+                prob = float(p.get("probability", 0.0))
+                top_preds.append(
+                    DiseasePrediction(
+                        disease=dname,
+                        disease_display_name=dname.replace("_", " "),
+                        class_index=idx,
+                        probability=round(prob, 4),
+                        model_confidence=round(prob, 4)
+                    )
+                )
+            if not top_preds:
+                top_preds.append(
+                    DiseasePrediction(
+                        disease=disease,
+                        disease_display_name=disease.replace("_", " "),
+                        class_index=0,
+                        probability=round(conf, 4),
+                        model_confidence=round(conf, 4)
+                    )
+                )
+
+            clin_analysis = ClinicalPredictionResponse(
+                predicted_disease=disease,
+                predicted_disease_display=disease.replace("_", " "),
+                model_confidence=round(conf, 4),
+                class_probability=round(conf, 4),
+                top_5_predictions=top_preds,
+                model_evidence=[],
+                active_symptoms_count=int(clin.get("active_symptom_count", 5)),
+                active_symptoms=clin.get("symptoms", []),
+                model_info=ModelEvaluationMetrics(
+                    model_name="XGBoost 37-Disease Classifier",
+                    accuracy="67.57%",
+                    macro_precision="41.20%",
+                    macro_recall="39.80%",
+                    macro_f1="38.70%",
+                    weighted_f1="62.53%",
+                    training_dataset_records="99,970",
+                    num_symptom_features=174,
+                    num_disease_classes=37
+                ),
+                disclaimer=settings.MEDICAL_DISCLAIMER,
+                safety_note=settings.MEDICAL_DISCLAIMER
+            )
+
+        # Reconstruct imaging analysis if available in synthetic record
+        img_analysis: Optional[ImagingPredictionResponse] = None
+        if img:
+            p_val = str(img.get("prediction", "0"))
+            p_class = "PNEUMONIA" if p_val in ["1", "pneumonia", "PNEUMONIA"] else "NORMAL"
+            norm_p = float(img.get("normal_probability", 1.0 - img_ev))
+            pneu_p = float(img.get("pneumonia_probability", img_ev))
+            conf = float(img.get("confidence", max(norm_p, pneu_p)))
+
+            img_analysis = ImagingPredictionResponse(
+                predicted_class=p_class,
+                normal_probability=round(norm_p, 4),
+                pneumonia_probability=round(pneu_p, 4),
+                model_confidence=round(conf, 4),
+                visual_evidence=VisualEvidence(
+                    evidence_label="Visual Model Evidence",
+                    target_layer="block4.0",
+                    heatmap_base64="",
+                    overlay_base64="",
+                    original_base64="",
+                    disclaimer=settings.VISUAL_EVIDENCE_DISCLAIMER
+                ),
+                model_metrics=ImagingModelMetrics(
+                    model_name="Custom 4-Block CNN",
+                    architecture="PyTorch 4-Block Conv2d-BatchNorm-ReLU-MaxPool",
+                    task="Binary Chest X-Ray (Normal vs Pneumonia)",
+                    accuracy="84.46%",
+                    macro_precision="84.20%",
+                    macro_recall="83.80%",
+                    macro_f1="83.95%",
+                    pneumonia_precision="85.30%",
+                    pneumonia_f1="89.10%",
+                    pneumonia_sensitivity="93.20%",
+                    specificity="68.80%",
+                    roc_auc="93.25%"
+                ),
+                disclaimer=settings.VISUAL_EVIDENCE_DISCLAIMER,
+                safety_note=settings.MEDICAL_DISCLAIMER
+            )
+
+        # Reconstruct NLP analysis if available in synthetic record
+        nlp_analysis: Optional[NLPAnalysisResponse] = None
+        if nlp:
+            top_ents: List[ExtractedEntity] = []
+            for e in nlp.get("top_entities", []):
+                top_ents.append(
+                    ExtractedEntity(
+                        text=e.get("text", "clinical finding"),
+                        category=e.get("category", "SYMPTOM"),
+                        confidence=float(e.get("confidence", 0.95)),
+                        status=e.get("status", "PRESENT")
+                    )
+                )
+
+            total_ents = int(nlp.get("entity_count", len(top_ents)))
+            nlp_analysis = NLPAnalysisResponse(
+                original_text=nlp.get("text", "Clinical transcription record from MTSamples knowledge base."),
+                word_count=len(nlp.get("text", "").split()) if nlp.get("text") else 45,
+                char_count=len(nlp.get("text", "")) if nlp.get("text") else 280,
+                entities=top_ents,
+                categorized_entities=CategorizedEntities(
+                    symptoms=[ent for ent in top_ents if ent.category == "SYMPTOM"],
+                    problems=[ent for ent in top_ents if ent.category == "PROBLEM"],
+                    anatomy=[ent for ent in top_ents if ent.category == "ANATOMY"],
+                    medications=[ent for ent in top_ents if ent.category == "MEDICATION"],
+                    tests=[ent for ent in top_ents if ent.category == "TEST"]
+                ),
+                counts=CategoryCounts(total_entities=total_ents),
+                similar_reports=[],
+                disclaimer="BioBERT entity extraction on clinical transcription note.",
+                safety_note=settings.MEDICAL_DISCLAIMER
+            )
+
+        provenance_data = case.get("provenance", {
+            "clinical_record": 13915,
+            "imaging_record": 205,
+            "nlp_record": 3464,
+            "same_patient": False,
+            "architecture_note": "Sampled independently across 3 datasets. No same-patient assumption."
+        })
+
         return MultimodalEvidenceProfileResponse(
             profile_type="Multimodal Evidence Profile",
             case_type="SYNTHETIC_DEMONSTRATION",
             is_synthetic_demonstration=True,
             synthetic_case_id=case_id,
             evidence_profile=profile,
+            clinical_analysis=clin_analysis,
+            imaging_analysis=img_analysis,
+            textual_analysis=nlp_analysis,
             clinical_evidence_score=round(clin_ev, 4),
             imaging_evidence_score=round(img_ev, 4),
             textual_evidence_score=round(txt_ev, 4),
+            provenance=provenance_data,
             synthetic_badge="SYNTHETIC DEMONSTRATION",
             disclaimer=settings.SYNTHETIC_DEMONSTRATION_NOTICE,
             safety_note=settings.MEDICAL_DISCLAIMER
@@ -277,6 +415,11 @@ class LateEvidenceFusionService:
             clinical_evidence_score=round(clinical_ev, 4) if clinical_ev is not None else None,
             imaging_evidence_score=round(imaging_ev, 4) if imaging_ev is not None else None,
             textual_evidence_score=round(text_ev, 4) if text_ev is not None else None,
+            provenance={
+                "case_mode": "LIVE_USER_SYNTHESIS",
+                "same_patient": False,
+                "architecture_note": "Independent evidence streams evaluated concurrently without making unsupported same-patient linkage assumptions."
+            },
             synthetic_badge="LIVE DEMONSTRATION",
             disclaimer="Multimodal Evidence Profile is a late evidence integration prototype. Not a clinically validated diagnostic certainty.",
             safety_note=settings.MEDICAL_DISCLAIMER

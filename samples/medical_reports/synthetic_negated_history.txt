@@ -1,0 +1,9 @@
+SYNTHETIC DEMONSTRATION NOTE — NOT A REAL PATIENT
+
+Review of systems: The fictional patient denies chest pain, fever, and nausea.
+
+Background: History of asthma. Family history of diabetes in the patient's mother.
+
+Assessment: No current pneumonia is reported in this example note.
+
+This synthetic note is for software demonstration only and does not provide medical advice.

@@ -6,6 +6,10 @@ import {
   NLPAnalysisResponse,
   MultimodalEvidenceProfileResponse,
   SyntheticCaseSummary,
+  AssistantHistoryTurn,
+  AssistantStatusResponse,
+  AssistantChatResponse,
+  AssistantToolsResponse,
 } from '../types';
 
 const BASE_URL = '/api';
@@ -135,25 +139,61 @@ export const explainabilityApi = {
 // Agentic Healthcare Assistant API
 // ==========================================
 export const assistantApi = {
-  chat: (message: string, sessionId?: string, caseId?: string) =>
-    request<any>('/assistant/chat', {
-      method: 'POST',
-      body: JSON.stringify({ message, session_id: sessionId, case_id: caseId }),
-    }),
+  getStatus: () => request<AssistantStatusResponse>('/assistant/status'),
 
-  getTools: () => request<any[]>('/assistant/tools'),
+  chat: (
+    message: string,
+    sessionId?: string,
+    caseId?: string,
+    options: {
+      symptoms?: string[];
+      medicalText?: string;
+      history?: AssistantHistoryTurn[];
+      imageFile?: File;
+    } = {},
+  ) => {
+    if (options.imageFile) {
+      const formData = new FormData();
+      formData.append('message', message);
+      formData.append('file', options.imageFile);
+      if (sessionId) formData.append('session_id', sessionId);
+      if (caseId) formData.append('case_id', caseId);
+      if (options.symptoms?.length) formData.append('symptoms', options.symptoms.join(','));
+      if (options.medicalText) formData.append('medical_text', options.medicalText);
+      formData.append('history', JSON.stringify(options.history ?? []));
+      return request<AssistantChatResponse>('/assistant/chat/image', {
+        method: 'POST',
+        body: formData,
+      });
+    }
+
+    return request<AssistantChatResponse>('/assistant/chat', {
+      method: 'POST',
+      body: JSON.stringify({
+        message,
+        session_id: sessionId,
+        case_id: caseId,
+        symptoms: options.symptoms?.length ? options.symptoms : undefined,
+        medical_text: options.medicalText || undefined,
+        history: options.history ?? [],
+      }),
+    });
+  },
+
+  getTools: () => request<AssistantToolsResponse>('/assistant/tools'),
 };
 
 // ==========================================
 // Cases API
 // ==========================================
 export const casesApi = {
-  listCases: (limit = 25, offset = 0, caseType?: string, evidenceLevel?: string) => {
+  listCases: (limit = 25, offset = 0, caseType?: string, evidenceLevel?: string, search?: string) => {
     const params = new URLSearchParams();
     params.set('limit', String(limit));
     params.set('offset', String(offset));
     if (caseType) params.set('case_type', caseType);
     if (evidenceLevel) params.set('evidence_level', evidenceLevel);
+    if (search) params.set('search', search);
     return request<any[]>(`/cases?${params.toString()}`);
   },
 

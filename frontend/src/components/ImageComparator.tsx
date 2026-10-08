@@ -37,7 +37,7 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
     };
 
     return (
-      <div className="relative aspect-square max-h-[460px] mx-auto bg-slate-950 rounded-2xl overflow-hidden border border-slate-200 flex items-center justify-center">
+      <div className="relative aspect-square max-h-[460px] mx-auto bg-black rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 flex items-center justify-center">
         <div className="w-full h-full flex items-center justify-center overflow-hidden">
           {activeTab === 'overlay' && (
             <img
@@ -89,7 +89,7 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
                 className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize shadow-md"
                 style={{ left: `${splitPosition}%` }}
               >
-                <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-clinical-blue border-2 border-white flex items-center justify-center text-white text-[10px] font-bold shadow">
+                <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-emerald-600 border-2 border-white flex items-center justify-center text-white text-[10px] font-bold shadow">
                   ↔
                 </div>
               </div>
@@ -107,17 +107,17 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
 
         {/* Prediction Status Badge */}
         {prediction && (
-          <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-sm border border-slate-200 px-3 py-1.5 rounded-xl shadow-xs flex items-center gap-2">
+          <div className="absolute top-3 left-3 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md border border-zinc-200 dark:border-zinc-800 px-3 py-1.5 rounded-xl shadow-sm flex items-center gap-2">
             <span
               className={`w-2 h-2 rounded-full ${
                 prediction === 'PNEUMONIA' ? 'bg-rose-500 animate-pulse' : 'bg-emerald-500'
               }`}
             />
-            <span className="text-xs font-bold text-slate-900 tracking-wide font-mono">
+            <span className="text-xs font-bold text-zinc-900 dark:text-zinc-100 tracking-wide font-mono">
               {prediction}
             </span>
             {probability !== undefined && (
-              <span className="text-[11px] font-mono text-slate-500">
+              <span className="text-[11px] font-mono text-zinc-500 dark:text-zinc-400">
                 ({(probability * 100).toFixed(1)}%)
               </span>
             )}
@@ -125,17 +125,17 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
         )}
 
         {/* Viewer Tools Floating Toolbar: Zoom, Reset, Fullscreen */}
-        <div className="absolute bottom-3 right-3 flex items-center gap-1.5 bg-white/90 backdrop-blur-sm p-1 rounded-xl shadow-xs border border-slate-200">
+        <div className="absolute bottom-3 right-3 flex items-center gap-1.5 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md p-1.5 rounded-xl shadow-sm border border-zinc-200 dark:border-zinc-800">
           <button
             onClick={handleZoomIn}
-            className="p-1.5 hover:bg-slate-100 text-slate-700 rounded-lg transition"
+            className="p-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded-lg transition-colors"
             title="Zoom In"
           >
             <ZoomIn className="w-3.5 h-3.5" />
           </button>
           <button
             onClick={handleZoomOut}
-            className="p-1.5 hover:bg-slate-100 text-slate-700 rounded-lg transition"
+            className="p-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded-lg transition-colors"
             title="Zoom Out"
           >
             <ZoomOut className="w-3.5 h-3.5" />
@@ -143,16 +143,16 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
           {zoomLevel !== 1.0 && (
             <button
               onClick={handleResetZoom}
-              className="p-1.5 hover:bg-slate-100 text-slate-700 rounded-lg transition"
+              className="p-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded-lg transition-colors"
               title="Reset Zoom (100%)"
             >
               <RotateCcw className="w-3.5 h-3.5" />
             </button>
           )}
-          <div className="w-px h-4 bg-slate-200" />
+          <div className="w-px h-4 bg-zinc-200 dark:bg-zinc-800" />
           <button
             onClick={() => setIsFullscreen(true)}
-            className="p-1.5 hover:bg-slate-100 text-slate-700 rounded-lg transition"
+            className="p-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded-lg transition-colors"
             title="Fullscreen Inspection"
           >
             <Maximize2 className="w-3.5 h-3.5" />
@@ -163,55 +163,55 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
   };
 
   return (
-    <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+    <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-5 shadow-sm">
       {/* Header Controls */}
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3.5 border-b border-slate-100">
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3.5 border-b border-zinc-100 dark:border-zinc-800">
         <div className="flex items-center gap-2">
-          <Layers className="w-4 h-4 text-clinical-blue" />
-          <h3 className="text-sm font-bold text-slate-900">Grad-CAM Visual Model Evidence</h3>
-          <span className="text-[10px] font-mono bg-sky-50 text-clinical-blue border border-sky-200 px-2 py-0.5 rounded font-semibold">
+          <Layers className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+          <h3 className="text-sm font-bold text-zinc-900 dark:text-zinc-100">Grad-CAM Visual Model Evidence</h3>
+          <span className="text-[10px] font-mono bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800/60 px-2 py-0.5 rounded font-semibold">
             Layer: {targetLayer}
           </span>
         </div>
 
         {/* Mode Toggle Pills */}
-        <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200">
+        <div className="flex items-center gap-1 bg-zinc-100 dark:bg-zinc-800/80 p-1 rounded-xl border border-zinc-200 dark:border-zinc-700/60">
           <button
             onClick={() => setActiveTab('overlay')}
-            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition ${
+            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors ${
               activeTab === 'overlay'
-                ? 'bg-white text-clinical-blue shadow-2xs'
-                : 'text-slate-600 hover:text-slate-900'
+                ? 'bg-white dark:bg-zinc-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
+                : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200'
             }`}
           >
             Overlay
           </button>
           <button
             onClick={() => setActiveTab('original')}
-            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition ${
+            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors ${
               activeTab === 'original'
-                ? 'bg-white text-clinical-blue shadow-2xs'
-                : 'text-slate-600 hover:text-slate-900'
+                ? 'bg-white dark:bg-zinc-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
+                : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200'
             }`}
           >
             Original
           </button>
           <button
             onClick={() => setActiveTab('heatmap')}
-            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition ${
+            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors ${
               activeTab === 'heatmap'
-                ? 'bg-white text-clinical-blue shadow-2xs'
-                : 'text-slate-600 hover:text-slate-900'
+                ? 'bg-white dark:bg-zinc-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
+                : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200'
             }`}
           >
             Heatmap
           </button>
           <button
             onClick={() => setActiveTab('split')}
-            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition ${
+            className={`px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors ${
               activeTab === 'split'
-                ? 'bg-white text-clinical-blue shadow-2xs'
-                : 'text-slate-600 hover:text-slate-900'
+                ? 'bg-white dark:bg-zinc-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
+                : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200'
             }`}
           >
             Side-by-Side
@@ -223,48 +223,48 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
       {renderImageContent()}
 
       {/* Clinical Explanation & Colormap Legend */}
-      <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-3">
+      <div className="mt-3.5 pt-3 border-t border-zinc-100 dark:border-zinc-800 text-xs text-zinc-500 dark:text-zinc-400 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2 max-w-xl">
-          <Info className="w-4 h-4 text-clinical-blue shrink-0" />
+          <Info className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
           <span className="text-[11px] leading-relaxed">
-            Visual Explanation: Warm regions indicate higher convolutional activations on layer <code className="font-mono text-slate-700">{targetLayer}</code>. Does not imply clinical lesion localization.
+            Visual Explanation: Warm regions indicate higher convolutional activations on layer <code className="font-mono text-zinc-700 dark:text-zinc-300">{targetLayer}</code>. Does not imply clinical lesion localization.
           </span>
         </div>
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5">
-            <span className="w-2.5 h-2.5 rounded bg-red-500" />
-            <span className="text-[10px] text-slate-600">High Activation</span>
+            <span className="w-2.5 h-2.5 rounded bg-rose-500" />
+            <span className="text-[10px] text-zinc-600 dark:text-zinc-400">High Activation</span>
           </div>
           <div className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded bg-amber-400" />
-            <span className="text-[10px] text-slate-600">Moderate</span>
+            <span className="text-[10px] text-zinc-600 dark:text-zinc-400">Moderate</span>
           </div>
           <div className="flex items-center gap-1.5">
-            <span className="w-2.5 h-2.5 rounded bg-blue-600" />
-            <span className="text-[10px] text-slate-600">Baseline</span>
+            <span className="w-2.5 h-2.5 rounded bg-emerald-500" />
+            <span className="text-[10px] text-zinc-600 dark:text-zinc-400">Baseline</span>
           </div>
         </div>
       </div>
 
       {/* Fullscreen Inspection Modal */}
       {isFullscreen && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex flex-col items-center justify-center p-6">
-          <div className="w-full max-w-4xl bg-white rounded-2xl overflow-hidden shadow-2xl p-4 flex flex-col">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-200 mb-3">
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex flex-col items-center justify-center p-6">
+          <div className="w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl border border-zinc-200 dark:border-zinc-800 p-4 flex flex-col">
+            <div className="flex items-center justify-between pb-3 border-b border-zinc-200 dark:border-zinc-800 mb-3">
               <div className="flex items-center gap-2">
-                <span className="font-bold text-sm text-slate-900">Visual Explanation Fullscreen Inspection</span>
-                <span className="font-mono text-xs text-clinical-blue bg-sky-50 px-2 py-0.5 rounded border border-sky-200">
+                <span className="font-bold text-sm text-zinc-900 dark:text-zinc-100">Visual Explanation Fullscreen Inspection</span>
+                <span className="font-mono text-xs text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-800/60">
                   {targetLayer}
                 </span>
               </div>
               <button
                 onClick={() => setIsFullscreen(false)}
-                className="p-1.5 text-slate-500 hover:text-slate-800 bg-slate-100 rounded-lg"
+                className="p-1.5 text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 bg-zinc-100 dark:bg-zinc-800 rounded-lg transition-colors"
               >
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="max-h-[75vh] flex items-center justify-center bg-black rounded-xl p-2">
+            <div className="max-h-[75vh] flex items-center justify-center bg-black rounded-xl p-2 border border-zinc-800">
               <img
                 src={
                   activeTab === 'original'
@@ -283,3 +283,4 @@ export const ImageComparator: React.FC<ImageComparatorProps> = ({
     </div>
   );
 };
+

@@ -71,68 +71,70 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         <div 
           onClick={() => setActiveTab('clinical')}
-          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-emerald-500/50 dark:hover:border-emerald-500/50 hover:shadow-lg transition-all duration-200"
+          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-emerald-500/60 dark:hover:border-emerald-500/60 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-200 relative overflow-hidden"
         >
-          <div className="flex items-start justify-between mb-4">
-            <div className="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-colors">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-colors" />
+          <div className="flex items-start justify-between mb-4 relative">
+            <div className="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-600 group-hover:text-white transition-colors shadow-2xs">
               <Stethoscope className="w-5 h-5" />
             </div>
             <Badge variant="operational" />
           </div>
           <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1 flex items-center justify-between">
             Clinical Assessment
-            <ArrowRight className="w-4 h-4 text-zinc-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+            <ArrowRight className="w-4 h-4 text-emerald-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
           </h3>
           <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">XGBoost · 37 classes · 174 symptom vectors</p>
         </div>
 
         <div 
           onClick={() => setActiveTab('imaging')}
-          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-emerald-500/50 dark:hover:border-emerald-500/50 hover:shadow-lg transition-all duration-200"
+          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-emerald-500/60 dark:hover:border-emerald-500/60 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-emerald-500/5 transition-all duration-200 relative overflow-hidden"
         >
-          <div className="flex items-start justify-between mb-4">
-            <div className="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-colors">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-colors" />
+          <div className="flex items-start justify-between mb-4 relative">
+            <div className="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-600 group-hover:text-white transition-colors shadow-2xs">
               <ImageIcon className="w-5 h-5" />
             </div>
             <Badge variant="operational" />
           </div>
           <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1 flex items-center justify-between">
             Chest X-Ray
-            <ArrowRight className="w-4 h-4 text-zinc-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+            <ArrowRight className="w-4 h-4 text-emerald-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
           </h3>
           <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">Custom CNN · 84.46% accuracy · Grad-CAM</p>
         </div>
 
         <div 
           onClick={() => setActiveTab('nlp')}
-          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-amber-500/50 dark:hover:border-amber-500/50 hover:shadow-lg transition-all duration-200"
+          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-amber-500/60 dark:hover:border-amber-500/60 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-amber-500/5 transition-all duration-200 relative overflow-hidden"
         >
-          <div className="flex items-start justify-between mb-4">
-            <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-white transition-colors">
+          <div className="flex items-start justify-between mb-4 relative">
+            <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 group-hover:bg-amber-600 group-hover:text-white transition-colors shadow-2xs">
               <FileText className="w-5 h-5" />
             </div>
             <Badge variant="development" label="In Development" />
           </div>
           <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1 flex items-center justify-between">
             Medical NLP
-            <ArrowRight className="w-4 h-4 text-zinc-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+            <ArrowRight className="w-4 h-4 text-amber-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
           </h3>
           <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">BioBERT NER · S-PubMedBERT Semantic Index</p>
         </div>
 
         <div 
           onClick={() => setActiveTab('fusion')}
-          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-amber-500/50 dark:hover:border-amber-500/50 hover:shadow-lg transition-all duration-200"
+          className="group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5 cursor-pointer hover:border-amber-500/60 dark:hover:border-amber-500/60 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-amber-500/5 transition-all duration-200 relative overflow-hidden"
         >
-          <div className="flex items-start justify-between mb-4">
-            <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-white transition-colors">
+          <div className="flex items-start justify-between mb-4 relative">
+            <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 group-hover:bg-amber-600 group-hover:text-white transition-colors shadow-2xs">
               <Network className="w-5 h-5" />
             </div>
             <Badge variant="development" label="In Development" />
           </div>
           <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1 flex items-center justify-between">
             Evidence Fusion
-            <ArrowRight className="w-4 h-4 text-zinc-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+            <ArrowRight className="w-4 h-4 text-amber-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
           </h3>
           <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">Late Fusion Engine · Concordance Index</p>
         </div>

@@ -21,6 +21,10 @@ class Settings(BaseSettings):
     PORT: int = 8000
     ENVIRONMENT: str = "development"
 
+    # Optional language-model API for natural-language assistant replies
+    GROQ_API_KEY: str = ""
+    GROQ_MODEL: str = "openai/gpt-oss-120b"
+
     # Database
     DATABASE_URL: str = "sqlite:///./medintel.db"
 

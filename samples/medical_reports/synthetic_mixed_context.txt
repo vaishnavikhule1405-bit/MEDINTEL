@@ -1,0 +1,11 @@
+SYNTHETIC DEMONSTRATION NOTE — NOT A REAL PATIENT
+
+Chief concern: A fictional adult reports cough, fever, and shortness of breath.
+
+Current history: The patient denies chest pain and nausea. Possible pneumonia is being considered; the cause of the cough is uncertain.
+
+Background: History of asthma and diabetes. Family history of coronary artery disease in the patient's father.
+
+Current medications: Albuterol is listed in the fictional medication history.
+
+Plan: A chest X-ray was requested for clinician review. This synthetic note is for software demonstration only and does not provide medical advice.

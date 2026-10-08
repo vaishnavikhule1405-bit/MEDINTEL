@@ -26,6 +26,7 @@ def list_cases(
     offset: int = Query(0, ge=0),
     case_type: Optional[str] = Query(None, description="Filter by LIVE_ANALYSIS or SYNTHETIC_DEMONSTRATION"),
     evidence_level: Optional[str] = Query(None, description="Filter by LOW, MODERATE, HIGH"),
+    search: Optional[str] = Query(None, max_length=100, description="Search case ID, patient identifier, title, or condition"),
     db: Session = Depends(get_db)
 ) -> List[CaseListItem]:
     try:
@@ -34,7 +35,8 @@ def list_cases(
             limit=limit,
             offset=offset,
             case_type=case_type,
-            evidence_level=evidence_level
+            evidence_level=evidence_level,
+            search=search
         )
     except Exception as e:
         logger.error(f"Error querying cases: {e}", exc_info=True)

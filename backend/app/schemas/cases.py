@@ -30,6 +30,7 @@ class CaseListItem(BaseModel):
     evidence_level: str
     cross_modality_relationship: str
     created_at: datetime
+    modalities_present: List[str] = Field(default_factory=list)
 
 
 class CaseDetailResponse(BaseModel):
